@@ -1,0 +1,761 @@
+///$tab GeneratedScript
+AppObjects:
+LOAD * Inline [
+appName~objectType~objectid~sheeturl~description~appid~objectName
+
+Top 10 Viz Tricks - Part 2~sheet~b08ddcdb-0db5-4d77-be24-7ba1e9ed4f13~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/b08ddcdb-0db5-4d77-be24-7ba1e9ed4f13/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~IBCS charts
+
+Top 10 Viz Tricks - Part 2~sheet~dd328e7f-4017-426a-b53e-cf7d8114b902~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/dd328e7f-4017-426a-b53e-cf7d8114b902/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Venn diagram nr 2
+
+Top 10 Viz Tricks - Part 2~sheet~ad0129ee-bd2f-4836-85ca-bbc0cc485b51~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/ad0129ee-bd2f-4836-85ca-bbc0cc485b51/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Filter sliders
+
+Top 10 Viz Tricks - Part 2~sheet~b915f959-ea7b-4489-86b2-e4afef89a62a~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/b915f959-ea7b-4489-86b2-e4afef89a62a/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Check boxes and radio buttons
+
+Top 10 Viz Tricks - Part 2~sheet~9d2a26d1-2fb9-423a-88e6-2f70de835836~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/9d2a26d1-2fb9-423a-88e6-2f70de835836/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Search options
+
+Top 10 Viz Tricks - Part 2~sheet~bdaa25df-4414-4762-ac15-276ea25f4739~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/bdaa25df-4414-4762-ac15-276ea25f4739/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Control Charts
+
+Top 10 Viz Tricks - Part 2~sheet~61f6bb0f-5283-4aca-95df-b1205bb26a83~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/61f6bb0f-5283-4aca-95df-b1205bb26a83/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Dimension dependent master measures
+
+Top 10 Viz Tricks - Part 2~sheet~6d471aaf-dcbe-4a3c-a48c-c6cc3e61d6be~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/6d471aaf-dcbe-4a3c-a48c-c6cc3e61d6be/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Color bands
+
+Top 10 Viz Tricks - Part 2~sheet~5d51a962-0a92-4821-bb9e-df1c44a1e2f9~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/5d51a962-0a92-4821-bb9e-df1c44a1e2f9/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Line graphs with bands
+
+Top 10 Viz Tricks - Part 2~sheet~3ac5d2f1-2ce2-4be0-a073-675979893dd2~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/3ac5d2f1-2ce2-4be0-a073-675979893dd2/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Cyclic measures
+
+Top 10 Viz Tricks - Part 2~sheet~a21a59a9-80af-4f31-8332-18138572b6bf~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/a21a59a9-80af-4f31-8332-18138572b6bf/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Venn diagram
+
+Top 10 Viz Tricks - Part 2~sheet~2ddd8113-4b49-492c-96aa-2566f1a32244~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/2ddd8113-4b49-492c-96aa-2566f1a32244/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Master item management
+
+Top 10 Viz Tricks - Part 2~sheet~d7590885-097b-40e6-88e4-b70380db348e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/d7590885-097b-40e6-88e4-b70380db348e/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~KPI with indicators
+
+Top 10 Viz Tricks - Part 2~sheet~8bf36ca0-f3ff-4d76-b793-1d82cffb808e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/8bf36ca0-f3ff-4d76-b793-1d82cffb808e/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Triggers and email alerts
+
+Top 10 Viz Tricks - Part 2~sheet~27d26d3b-0d52-4f10-be08-6b0a46ff9867~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/27d26d3b-0d52-4f10-be08-6b0a46ff9867/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Best selling combo
+
+Top 10 Viz Tricks - Part 2~sheet~f4116891-9753-4ab9-8aa4-bae17badfe03~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/f4116891-9753-4ab9-8aa4-bae17badfe03/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Comparing tables
+
+Top 10 Viz Tricks - Part 2~sheet~6ab16b3f-b203-4685-9053-1c7e43711ee1~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/6ab16b3f-b203-4685-9053-1c7e43711ee1/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~TreeView
+
+Top 10 Viz Tricks - Part 2~sheet~1f74a628-ea3b-450c-8bf2-ca0390ed7cbf~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/1f74a628-ea3b-450c-8bf2-ca0390ed7cbf/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Add descriptions to charts
+
+Top 10 Viz Tricks - Part 2~sheet~84a324a5-98e1-47e4-8961-91768d28890f~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/84a324a5-98e1-47e4-8961-91768d28890f/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Current selection
+
+Top 10 Viz Tricks - Part 2~sheet~74562e49-a447-4556-9b6f-b76470d2804e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/74562e49-a447-4556-9b6f-b76470d2804e/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Pivot sort part 2, Pareto analysis
+
+Top 10 Viz Tricks - Part 2~sheet~afa05f07-f559-430e-83ec-3f52d564abc4~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/afa05f07-f559-430e-83ec-3f52d564abc4/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Pivot table sort
+
+Top 10 Viz Tricks - Part 2~sheet~02399206-576a-4059-a1df-e90908a6e783~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/02399206-576a-4059-a1df-e90908a6e783/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Brushing
+
+Top 10 Viz Tricks - Part 2~sheet~ec24d980-7b17-4710-af97-f15b119c8cff~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/ec24d980-7b17-4710-af97-f15b119c8cff/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Target chart with CSS
+
+Top 10 Viz Tricks - Part 2~sheet~601b7b15-0a99-47c8-90db-5784a605aa16~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/601b7b15-0a99-47c8-90db-5784a605aa16/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Special sum in table
+
+Top 10 Viz Tricks - Part 2~sheet~23ae1d78-38c4-49a7-baa0-f39d03962caa~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/23ae1d78-38c4-49a7-baa0-f39d03962caa/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Drill down bread crumbs
+
+Top 10 Viz Tricks - Part 2~sheet~cb02c247-10c6-4e2a-a321-f6c2bcd460ae~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/cb02c247-10c6-4e2a-a321-f6c2bcd460ae/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Container tips
+
+Top 10 Viz Tricks - Part 2~sheet~fd05c178-1f14-4989-88f5-7f0b9f4d9aa9~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/fd05c178-1f14-4989-88f5-7f0b9f4d9aa9/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Alternate states
+
+Top 10 Viz Tricks - Part 2~sheet~dc381b22-0a58-4aec-a58d-e5a4662307e0~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/dc381b22-0a58-4aec-a58d-e5a4662307e0/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Vertical waterfall
+
+Top 10 Viz Tricks - Part 2~sheet~b6a24df9-9d97-4d14-868f-a4007cf725d8~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/b6a24df9-9d97-4d14-868f-a4007cf725d8/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Select by list
+
+Top 10 Viz Tricks - Part 2~sheet~8f67a6a2-23e0-4b5e-937a-36d6449a7e26~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/8f67a6a2-23e0-4b5e-937a-36d6449a7e26/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Annotations
+
+Top 10 Viz Tricks - Part 2~sheet~90fda2e4-7db4-4305-9fd9-0bdcd0af1a74~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/90fda2e4-7db4-4305-9fd9-0bdcd0af1a74/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Bullet chart in table
+
+Top 10 Viz Tricks - Part 2~sheet~aed0a2bf-b0b3-4600-b883-d7964d0fa110~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/aed0a2bf-b0b3-4600-b883-d7964d0fa110/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Lines and markers
+
+Top 10 Viz Tricks - Part 2~sheet~52db03f8-c84e-4b2c-a4af-bb6db7ee2f4a~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/52db03f8-c84e-4b2c-a4af-bb6db7ee2f4a/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Sharper tables
+
+Top 10 Viz Tricks - Part 2~sheet~f968eb9c-fe2c-482c-a09c-111aa4a26c02~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/f968eb9c-fe2c-482c-a09c-111aa4a26c02/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Show conditions
+
+Top 10 Viz Tricks - Part 2~sheet~79d7092b-1f56-4f89-886b-b58dfc2ca76b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/79d7092b-1f56-4f89-886b-b58dfc2ca76b/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Horizontal filters
+
+Top 10 Viz Tricks - Part 2~sheet~4c0c5186-937b-4d79-ad73-75697d501823~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/4c0c5186-937b-4d79-ad73-75697d501823/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Mix value and percentage
+
+Top 10 Viz Tricks - Part 2~sheet~effc0d89-d50d-46ea-8b00-0bd6d29cd7ea~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/effc0d89-d50d-46ea-8b00-0bd6d29cd7ea/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Stacking and grouping
+
+Top 10 Viz Tricks - Part 2~sheet~a7d759d1-97b4-4639-bc21-71cb145fa11b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/a7d759d1-97b4-4639-bc21-71cb145fa11b/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Lollipop chart
+
+Top 10 Viz Tricks - Part 2~sheet~43af4c5f-71ab-41bf-b15f-feca4cebf5a2~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/43af4c5f-71ab-41bf-b15f-feca4cebf5a2/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Positive and negative bars in the same column
+
+Top 10 Viz Tricks - Part 2~sheet~c1aac44e-5ecb-4cf5-87ee-3d4931a6ab9e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/c1aac44e-5ecb-4cf5-87ee-3d4931a6ab9e/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Gauges
+
+Top 10 Viz Tricks - Part 2~sheet~17225b9d-ac7a-40ee-8a7b-58d387384852~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/c3819eb1-3f11-4106-9e71-5f5a1f74c34f/sheet/17225b9d-ac7a-40ee-8a7b-58d387384852/~~c3819eb1-3f11-4106-9e71-5f5a1f74c34f~Distribution plot tips
+
+Top 10 Viz Tips QlikWorld 2020~sheet~48a558bb-3b7f-413e-9bec-4134dcbded87~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/48a558bb-3b7f-413e-9bec-4134dcbded87/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Candlestick chart
+
+Top 10 Viz Tips QlikWorld 2020~sheet~9534ee0f-784e-4a13-a9b5-beae575bf68c~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/9534ee0f-784e-4a13-a9b5-beae575bf68c/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Coxcomb chart
+
+Top 10 Viz Tips QlikWorld 2020~sheet~a8e5733b-09fe-4cca-8f7a-69b729a0360f~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/a8e5733b-09fe-4cca-8f7a-69b729a0360f/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Chord diagram
+
+Top 10 Viz Tips QlikWorld 2020~sheet~4e600f9d-3aac-4aac-ba09-897f9ed0722b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/4e600f9d-3aac-4aac-ba09-897f9ed0722b/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Calendar Graph - Month view
+
+Top 10 Viz Tips QlikWorld 2020~sheet~dd8f680c-de43-4a9b-8c3c-f9fd13d0a627~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/dd8f680c-de43-4a9b-8c3c-f9fd13d0a627/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Link to app
+
+Top 10 Viz Tips QlikWorld 2020~sheet~b479f0be-b586-45fc-be8f-ab4688eac655~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/b479f0be-b586-45fc-be8f-ab4688eac655/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Ridgeline chart
+
+Top 10 Viz Tips QlikWorld 2020~sheet~89fcd65a-b920-44df-a317-18db1e24cfa5~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/89fcd65a-b920-44df-a317-18db1e24cfa5/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Include from Github
+
+Top 10 Viz Tips QlikWorld 2020~sheet~b50fa059-c0c8-4ec4-9cb0-db03fd703fa8~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/b50fa059-c0c8-4ec4-9cb0-db03fd703fa8/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Center titles
+
+Top 10 Viz Tips QlikWorld 2020~sheet~d66eab59-fc49-4292-85b3-c3164331c1d7~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/d66eab59-fc49-4292-85b3-c3164331c1d7/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Hide three nav
+
+Top 10 Viz Tips QlikWorld 2020~sheet~abd26035-8201-4896-a114-66f488ebfe6e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/abd26035-8201-4896-a114-66f488ebfe6e/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Scatter with trackline
+
+Top 10 Viz Tips QlikWorld 2020~sheet~bd691c83-2e92-4229-9864-87c57ef30851~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/bd691c83-2e92-4229-9864-87c57ef30851/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Hide sheet title
+
+Top 10 Viz Tips QlikWorld 2020~sheet~b91fb9a6-ed94-48dc-b694-f40fcdf5bbbf~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/b91fb9a6-ed94-48dc-b694-f40fcdf5bbbf/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Image to chart
+
+Top 10 Viz Tips QlikWorld 2020~sheet~2dc40385-3971-4a13-b8af-fc2efe0390e0~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/2dc40385-3971-4a13-b8af-fc2efe0390e0/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Range chart
+
+Top 10 Viz Tips QlikWorld 2020~sheet~90e33a46-1968-4011-8edc-b05fa473b1f4~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/90e33a46-1968-4011-8edc-b05fa473b1f4/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Tooltip table
+
+Top 10 Viz Tips QlikWorld 2020~sheet~bb570f62-4d5c-46bb-af38-e93316874132~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/bb570f62-4d5c-46bb-af38-e93316874132/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Stream Graph
+
+Top 10 Viz Tips QlikWorld 2020~sheet~69d87dbe-1023-40eb-9903-312d9ffef676~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/69d87dbe-1023-40eb-9903-312d9ffef676/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Parliament diagram
+
+Top 10 Viz Tips QlikWorld 2020~sheet~63e6c858-d31f-48df-9271-da34055415de~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/63e6c858-d31f-48df-9271-da34055415de/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Scatter overlap
+
+Top 10 Viz Tips QlikWorld 2020~sheet~3a7a96fd-28b8-40ff-8803-ac67b5adcc2c~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/3a7a96fd-28b8-40ff-8803-ac67b5adcc2c/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Spiral plot
+
+Top 10 Viz Tips QlikWorld 2020~sheet~ff873d90-cb15-4434-98ed-c2e6a8912368~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/ff873d90-cb15-4434-98ed-c2e6a8912368/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Timeline chart
+
+Top 10 Viz Tips QlikWorld 2020~sheet~93fe7fcc-431a-446a-8030-b1020c29cc77~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/93fe7fcc-431a-446a-8030-b1020c29cc77/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Highlight rows
+
+Top 10 Viz Tips QlikWorld 2020~sheet~cd4a05cd-c27c-4e46-a2f0-bfb25501f5e7~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/cd4a05cd-c27c-4e46-a2f0-bfb25501f5e7/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Larger scrollbars
+
+Top 10 Viz Tips QlikWorld 2020~sheet~c637644c-9cb9-4ad9-94f1-d56163df0aee~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/c637644c-9cb9-4ad9-94f1-d56163df0aee/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Toolbar toggle
+
+Top 10 Viz Tips QlikWorld 2020~sheet~8e92a66c-d36f-4037-a28e-af8cb37443bb~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/8e92a66c-d36f-4037-a28e-af8cb37443bb/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Slope graph
+
+Top 10 Viz Tips QlikWorld 2020~sheet~accc3561-5d82-4565-8211-ef90e1bdc457~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/accc3561-5d82-4565-8211-ef90e1bdc457/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Rank chart
+
+Top 10 Viz Tips QlikWorld 2020~sheet~e078abff-80b6-429b-9155-22c4b103ef4a~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/e078abff-80b6-429b-9155-22c4b103ef4a/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Thumbnails
+
+Top 10 Viz Tips QlikWorld 2020~sheet~e4d43329-9127-415a-ad4d-87dabb95d60c~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/e4d43329-9127-415a-ad4d-87dabb95d60c/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Persistent colors
+
+Top 10 Viz Tips QlikWorld 2020~sheet~58a08950-046e-4d71-9456-d9db393c7c04~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/58a08950-046e-4d71-9456-d9db393c7c04/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Calendar Graph - Year view
+
+Top 10 Viz Tips QlikWorld 2020~sheet~a9a9c1ca-e8a9-49b3-8bfc-056cf5487e1e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/a9a9c1ca-e8a9-49b3-8bfc-056cf5487e1e/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Color thresholds
+
+Top 10 Viz Tips QlikWorld 2020~sheet~823c0707-1de9-4988-b18a-caa6bcd62716~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/823c0707-1de9-4988-b18a-caa6bcd62716/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Hide toolbar
+
+Top 10 Viz Tips QlikWorld 2020~sheet~627a5d4d-91e4-451a-95b4-413f5284060b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/627a5d4d-91e4-451a-95b4-413f5284060b/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Hide selection bar
+
+Top 10 Viz Tips QlikWorld 2020~sheet~1c392518-abf0-4314-aa9c-a7b356c2d153~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/1c392518-abf0-4314-aa9c-a7b356c2d153/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Hide search bar
+
+Top 10 Viz Tips QlikWorld 2020~sheet~12f74910-030c-430a-9295-a67235ab1154~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/12f74910-030c-430a-9295-a67235ab1154/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~100% bar charts
+
+Top 10 Viz Tips QlikWorld 2020~sheet~744b0fd9-b834-4647-b257-68b5e596ce54~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/744b0fd9-b834-4647-b257-68b5e596ce54/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Hide popup buttons
+
+Top 10 Viz Tips QlikWorld 2020~sheet~9e77c369-5b7c-4e8a-bfd2-1f8b7d730229~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/9e77c369-5b7c-4e8a-bfd2-1f8b7d730229/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Hide Pivot buttons
+
+Top 10 Viz Tips QlikWorld 2020~sheet~84827199-ea0c-46a5-a8b7-551b9fb20090~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/84827199-ea0c-46a5-a8b7-551b9fb20090/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Magic quadrant
+
+Top 10 Viz Tips QlikWorld 2020~sheet~2a783d72-559b-4b75-9256-44149f981b2c~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/2a783d72-559b-4b75-9256-44149f981b2c/~Radial bar charts~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Radial bar charts
+
+Top 10 Viz Tips QlikWorld 2020~sheet~d6a97eca-0b1c-4294-a69e-f8db330af2c2~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/d6a97eca-0b1c-4294-a69e-f8db330af2c2/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Quarterly month average
+
+Top 10 Viz Tips QlikWorld 2020~sheet~403a9a59-a7f7-4dec-b97b-9d1f0857f80a~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/403a9a59-a7f7-4dec-b97b-9d1f0857f80a/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Race chart
+
+Top 10 Viz Tips QlikWorld 2020~sheet~42a5686e-989e-4ee3-be43-97fa535c8816~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/42a5686e-989e-4ee3-be43-97fa535c8816/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Title and text matters more than we think
+
+Top 10 Viz Tips QlikWorld 2020~sheet~bf020a44-7ec6-436f-b595-1f6db8928f00~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/bf020a44-7ec6-436f-b595-1f6db8928f00/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Trellis container
+
+Top 10 Viz Tips QlikWorld 2020~sheet~8055e643-09af-4df4-b537-c3667d071d34~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/8055e643-09af-4df4-b537-c3667d071d34/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Responsive and mobile tips
+
+Top 10 Viz Tips QlikWorld 2020~sheet~1f03c222-75df-4057-bbf2-45b0d9fd7e41~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/1f03c222-75df-4057-bbf2-45b0d9fd7e41/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Watermark
+
+Top 10 Viz Tips QlikWorld 2020~sheet~01b378af-3dd2-404a-a5ce-eaca60c78fe6~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6a0869c6-6766-45dd-b68f-aacfc5e2187c/sheet/01b378af-3dd2-404a-a5ce-eaca60c78fe6/~~6a0869c6-6766-45dd-b68f-aacfc5e2187c~Meteogram
+
+Shell Histogram Example~sheet~86264da0-389d-40a1-9216-018156344de0~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8731365f-3f50-4446-853f-8e8410c467d7/sheet/86264da0-389d-40a1-9216-018156344de0/~~8731365f-3f50-4446-853f-8e8410c467d7~PnL Analysis Native
+
+Shell Histogram Example~sheet~5c8b60d9-06af-42b0-9132-fcfb442eb869~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8731365f-3f50-4446-853f-8e8410c467d7/sheet/5c8b60d9-06af-42b0-9132-fcfb442eb869/~~8731365f-3f50-4446-853f-8e8410c467d7~PnL Analysis
+
+Sales Extract~sheet~Dtd~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/5aa98966-a276-472d-9e33-c59b08102bad/sheet/Dtd/~~5aa98966-a276-472d-9e33-c59b08102bad~Variables
+
+Sales Extract~sheet~LUbRKJ~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/5aa98966-a276-472d-9e33-c59b08102bad/sheet/LUbRKJ/~~5aa98966-a276-472d-9e33-c59b08102bad~Performance Profile
+
+Sales Extract~sheet~RJnxW~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/5aa98966-a276-472d-9e33-c59b08102bad/sheet/RJnxW/~~5aa98966-a276-472d-9e33-c59b08102bad~Introduction
+
+Sales Extract~sheet~YbnmMUB~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/5aa98966-a276-472d-9e33-c59b08102bad/sheet/YbnmMUB/~~5aa98966-a276-472d-9e33-c59b08102bad~ETL Rules
+
+Sales Extract~sheet~khJPPC~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/5aa98966-a276-472d-9e33-c59b08102bad/sheet/khJPPC/~~5aa98966-a276-472d-9e33-c59b08102bad~System
+
+Sales Extract~sheet~unPDg~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/5aa98966-a276-472d-9e33-c59b08102bad/sheet/unPDg/~~5aa98966-a276-472d-9e33-c59b08102bad~Trace
+
+Product SalesEnablementSept2020DYY~sheet~7757adfb-939f-440b-b242-d10b7bd7029d~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/4a724a6c-e3cb-4d89-9cc8-80a417b06cfd/sheet/7757adfb-939f-440b-b242-d10b7bd7029d/~~4a724a6c-e3cb-4d89-9cc8-80a417b06cfd~My new sheet
+
+Product SalesEnablementSept2020DYY~sheet~1f02e644-cfb9-4a19-90d1-a41396056acb~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/4a724a6c-e3cb-4d89-9cc8-80a417b06cfd/sheet/1f02e644-cfb9-4a19-90d1-a41396056acb/~~4a724a6c-e3cb-4d89-9cc8-80a417b06cfd~My new sheet (1)
+
+CSV  URL SCRAPER~sheet~ea7329bc-4b4f-4736-950a-acb70ed9f58e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/6fb4d55a-9dce-4400-8520-82e22f1fa5e1/sheet/ea7329bc-4b4f-4736-950a-acb70ed9f58e/~~6fb4d55a-9dce-4400-8520-82e22f1fa5e1~My new sheet
+
+Profit and Loss~sheet~3fd47d24-d079-4057-8fd4-5c2f21c6d912~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/88b22346-3a43-4e37-af22-dff1ec614e57/sheet/3fd47d24-d079-4057-8fd4-5c2f21c6d912/~~88b22346-3a43-4e37-af22-dff1ec614e57~P&L
+
+Class coloring~sheet~714c23e5-4dfa-4102-84a3-73cddd405adf~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/42e77b69-ebc6-400d-b25c-c2a71ca1b804/sheet/714c23e5-4dfa-4102-84a3-73cddd405adf/~~42e77b69-ebc6-400d-b25c-c2a71ca1b804~Data Classification Methods
+
+Class coloring~sheet~a69a3d09-8f6a-4df9-97f8-237379d9abda~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/42e77b69-ebc6-400d-b25c-c2a71ca1b804/sheet/a69a3d09-8f6a-4df9-97f8-237379d9abda/~~42e77b69-ebc6-400d-b25c-c2a71ca1b804~Std dev
+
+Class coloring~sheet~8e19fc4d-4e08-4d69-959c-2b866418c2de~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/42e77b69-ebc6-400d-b25c-c2a71ca1b804/sheet/8e19fc4d-4e08-4d69-959c-2b866418c2de/~~42e77b69-ebc6-400d-b25c-c2a71ca1b804~Quantiles
+
+Top 10 Viz Tips Part V~sheet~634826e0-3807-4a3e-a627-a8e29752a9a6~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/634826e0-3807-4a3e-a627-a8e29752a9a6/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Stacked, not stacked and grouped bar chart (1)
+
+Top 10 Viz Tips Part V~sheet~856903e2-c063-4d56-a496-07f7f29b6859~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/856903e2-c063-4d56-a496-07f7f29b6859/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Cartograms
+
+Top 10 Viz Tips Part V~sheet~ecd5085a-f7d7-4086-a7e7-4f21c40d0df0~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/ecd5085a-f7d7-4086-a7e7-4f21c40d0df0/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~A/B Testing
+
+Top 10 Viz Tips Part V~sheet~9105774b-2c7f-4e6d-81e9-6f52d4d8c42b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/9105774b-2c7f-4e6d-81e9-6f52d4d8c42b/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Justify text
+
+Top 10 Viz Tips Part V~sheet~139bdf66-53f8-4b7b-895c-31ace06e9dbe~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/139bdf66-53f8-4b7b-895c-31ace06e9dbe/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Use the titles
+
+Top 10 Viz Tips Part V~sheet~e6250f35-efb1-4ad2-b448-bb0dfa82ae7a~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/e6250f35-efb1-4ad2-b448-bb0dfa82ae7a/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Custom y axis
+
+Top 10 Viz Tips Part V~sheet~71b101e6-24fd-4de8-9523-c827b97a7c11~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/71b101e6-24fd-4de8-9523-c827b97a7c11/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Image cloud
+
+Top 10 Viz Tips Part V~sheet~4f8ea94a-d490-4caf-ba16-fdba658c312f~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/4f8ea94a-d490-4caf-ba16-fdba658c312f/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Time plan
+
+Top 10 Viz Tips Part V~sheet~de3ffac6-742e-4fac-bd9c-e9e5556688cc~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/de3ffac6-742e-4fac-bd9c-e9e5556688cc/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Fiscal year starting at week 36
+
+Top 10 Viz Tips Part V~sheet~ed50341b-6669-4dff-a52a-4b103152259c~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/ed50341b-6669-4dff-a52a-4b103152259c/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Stacked, not stacked and grouped bar chart
+
+Top 10 Viz Tips Part V~sheet~f51182ff-3789-4362-8bda-d4016daa811b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/f51182ff-3789-4362-8bda-d4016daa811b/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Links
+
+Top 10 Viz Tips Part V~sheet~56bb2cf3-cd75-4e4b-8c44-c92a8304b530~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/56bb2cf3-cd75-4e4b-8c44-c92a8304b530/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Lazy evaluation
+
+Top 10 Viz Tips Part V~sheet~74fba5f9-5fb0-4402-8442-3db265dbd459~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/74fba5f9-5fb0-4402-8442-3db265dbd459/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Cluster chart
+
+Top 10 Viz Tips Part V~sheet~a26f2a83-1f36-40e1-ba62-8b8585a7b881~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/a26f2a83-1f36-40e1-ba62-8b8585a7b881/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Custom time axis with weeks
+
+Top 10 Viz Tips Part V~sheet~959794d5-5f4b-4b90-ad8e-541e38a01109~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/959794d5-5f4b-4b90-ad8e-541e38a01109/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Subtle or Bright
+
+Top 10 Viz Tips Part V~sheet~641fc1a9-5c1d-4f36-9ff3-de36345fbee7~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/641fc1a9-5c1d-4f36-9ff3-de36345fbee7/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Group similar values
+
+Top 10 Viz Tips Part V~sheet~dba895c9-2b5b-479c-bac1-aad6c5fa6c30~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/dba895c9-2b5b-479c-bac1-aad6c5fa6c30/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Funnel with straight edges
+
+Top 10 Viz Tips Part V~sheet~2726f75d-d078-4185-93be-9af08699b966~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/2726f75d-d078-4185-93be-9af08699b966/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Switch off store command
+
+Top 10 Viz Tips Part V~sheet~219e0f50-22e9-4faa-ac39-db72256fe474~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/219e0f50-22e9-4faa-ac39-db72256fe474/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Grouped boxplot
+
+Top 10 Viz Tips Part V~sheet~a750394b-221b-4124-8350-bb163b12402e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/a750394b-221b-4124-8350-bb163b12402e/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Filter pane hide excluded
+
+Top 10 Viz Tips Part V~sheet~e7f3859b-2278-4feb-af03-2e2b08da0543~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/e7f3859b-2278-4feb-af03-2e2b08da0543/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Barcode
+
+Top 10 Viz Tips Part V~sheet~d6072062-bd3a-4501-9c28-22c3c9680bbd~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/d6072062-bd3a-4501-9c28-22c3c9680bbd/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Image Table
+
+Top 10 Viz Tips Part V~sheet~cd4fb6df-2a8c-4a37-8df9-d3f4e3e8884d~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/cd4fb6df-2a8c-4a37-8df9-d3f4e3e8884d/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Percentage pictograms
+
+Top 10 Viz Tips Part V~sheet~f75b35df-7626-4f08-8a2e-945a99a3f8ec~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/f75b35df-7626-4f08-8a2e-945a99a3f8ec/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Second axis
+
+Top 10 Viz Tips Part V~sheet~b7a7974b-6f5d-4f1d-bc4d-a347dcaa830b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/b7a7974b-6f5d-4f1d-bc4d-a347dcaa830b/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Proportion Plot
+
+Top 10 Viz Tips Part V~sheet~7dae61cd-43ba-4eee-8b45-a3acbbcc41b8~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/7dae61cd-43ba-4eee-8b45-a3acbbcc41b8/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Max and min data labels
+
+Top 10 Viz Tips Part V~sheet~e49bbc22-7b16-4831-9d9d-00c104ee8113~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/e49bbc22-7b16-4831-9d9d-00c104ee8113/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Customer life cycle
+
+Top 10 Viz Tips Part V~sheet~c1700c04-446e-422b-b509-5719675bd726~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/c1700c04-446e-422b-b509-5719675bd726/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Field Overview and Distribution
+
+Top 10 Viz Tips Part V~sheet~01d64f8b-5f80-4463-adcf-f9571b9c30b7~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/01d64f8b-5f80-4463-adcf-f9571b9c30b7/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Linear Dendrogram
+
+Top 10 Viz Tips Part V~sheet~02307a04-2de3-48f2-b0e7-28cb78a7a37f~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/02307a04-2de3-48f2-b0e7-28cb78a7a37f/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Radial Dendrogram
+
+Top 10 Viz Tips Part V~sheet~c2494e35-b646-4bd9-9276-24b55b3b0e2d~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/37b0411b-b1f7-41fa-8e46-c4002f7c10ec/sheet/c2494e35-b646-4bd9-9276-24b55b3b0e2d/~~37b0411b-b1f7-41fa-8e46-c4002f7c10ec~Dendrogram with the org chart
+
+Top 10 Viz Tips Part III~sheet~1fac1471-99bb-44e5-9c0c-9cc045ae209f~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/1fac1471-99bb-44e5-9c0c-9cc045ae209f/~~1874310c-4130-4b8c-8829-aef33d1c0723~Chord diagram
+
+Top 10 Viz Tips Part III~sheet~48a558bb-3b7f-413e-9bec-4134dcbded87~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/48a558bb-3b7f-413e-9bec-4134dcbded87/~~1874310c-4130-4b8c-8829-aef33d1c0723~Candlestick chart
+
+Top 10 Viz Tips Part III~sheet~9534ee0f-784e-4a13-a9b5-beae575bf68c~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/9534ee0f-784e-4a13-a9b5-beae575bf68c/~~1874310c-4130-4b8c-8829-aef33d1c0723~Coxcomb chart
+
+Top 10 Viz Tips Part III~sheet~4e600f9d-3aac-4aac-ba09-897f9ed0722b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/4e600f9d-3aac-4aac-ba09-897f9ed0722b/~~1874310c-4130-4b8c-8829-aef33d1c0723~Calendar Graph - Month view
+
+Top 10 Viz Tips Part III~sheet~dd8f680c-de43-4a9b-8c3c-f9fd13d0a627~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/dd8f680c-de43-4a9b-8c3c-f9fd13d0a627/~~1874310c-4130-4b8c-8829-aef33d1c0723~Link to app
+
+Top 10 Viz Tips Part III~sheet~01b378af-3dd2-404a-a5ce-eaca60c78fe6~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/01b378af-3dd2-404a-a5ce-eaca60c78fe6/~~1874310c-4130-4b8c-8829-aef33d1c0723~Meteogram
+
+Top 10 Viz Tips Part III~sheet~b479f0be-b586-45fc-be8f-ab4688eac655~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/b479f0be-b586-45fc-be8f-ab4688eac655/~~1874310c-4130-4b8c-8829-aef33d1c0723~Ridgeline chart
+
+Top 10 Viz Tips Part III~sheet~89fcd65a-b920-44df-a317-18db1e24cfa5~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/89fcd65a-b920-44df-a317-18db1e24cfa5/~~1874310c-4130-4b8c-8829-aef33d1c0723~Include from Github
+
+Top 10 Viz Tips Part III~sheet~b50fa059-c0c8-4ec4-9cb0-db03fd703fa8~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/b50fa059-c0c8-4ec4-9cb0-db03fd703fa8/~~1874310c-4130-4b8c-8829-aef33d1c0723~Center titles
+
+Top 10 Viz Tips Part III~sheet~d66eab59-fc49-4292-85b3-c3164331c1d7~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/d66eab59-fc49-4292-85b3-c3164331c1d7/~~1874310c-4130-4b8c-8829-aef33d1c0723~Hide three nav
+
+Top 10 Viz Tips Part III~sheet~abd26035-8201-4896-a114-66f488ebfe6e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/abd26035-8201-4896-a114-66f488ebfe6e/~~1874310c-4130-4b8c-8829-aef33d1c0723~Scatter with trackline
+
+Top 10 Viz Tips Part III~sheet~bd691c83-2e92-4229-9864-87c57ef30851~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/bd691c83-2e92-4229-9864-87c57ef30851/~~1874310c-4130-4b8c-8829-aef33d1c0723~Hide sheet title
+
+Top 10 Viz Tips Part III~sheet~b91fb9a6-ed94-48dc-b694-f40fcdf5bbbf~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/b91fb9a6-ed94-48dc-b694-f40fcdf5bbbf/~~1874310c-4130-4b8c-8829-aef33d1c0723~Image to chart
+
+Top 10 Viz Tips Part III~sheet~2dc40385-3971-4a13-b8af-fc2efe0390e0~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/2dc40385-3971-4a13-b8af-fc2efe0390e0/~~1874310c-4130-4b8c-8829-aef33d1c0723~Range chart
+
+Top 10 Viz Tips Part III~sheet~90e33a46-1968-4011-8edc-b05fa473b1f4~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/90e33a46-1968-4011-8edc-b05fa473b1f4/~~1874310c-4130-4b8c-8829-aef33d1c0723~Tooltip table
+
+Top 10 Viz Tips Part III~sheet~bb570f62-4d5c-46bb-af38-e93316874132~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/bb570f62-4d5c-46bb-af38-e93316874132/~~1874310c-4130-4b8c-8829-aef33d1c0723~Stream Graph
+
+Top 10 Viz Tips Part III~sheet~69d87dbe-1023-40eb-9903-312d9ffef676~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/69d87dbe-1023-40eb-9903-312d9ffef676/~~1874310c-4130-4b8c-8829-aef33d1c0723~Parliament diagram
+
+Top 10 Viz Tips Part III~sheet~63e6c858-d31f-48df-9271-da34055415de~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/63e6c858-d31f-48df-9271-da34055415de/~~1874310c-4130-4b8c-8829-aef33d1c0723~Scatter overlap
+
+Top 10 Viz Tips Part III~sheet~3a7a96fd-28b8-40ff-8803-ac67b5adcc2c~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/3a7a96fd-28b8-40ff-8803-ac67b5adcc2c/~~1874310c-4130-4b8c-8829-aef33d1c0723~Spiral plot
+
+Top 10 Viz Tips Part III~sheet~ff873d90-cb15-4434-98ed-c2e6a8912368~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/ff873d90-cb15-4434-98ed-c2e6a8912368/~~1874310c-4130-4b8c-8829-aef33d1c0723~Timeline chart
+
+Top 10 Viz Tips Part III~sheet~93fe7fcc-431a-446a-8030-b1020c29cc77~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/93fe7fcc-431a-446a-8030-b1020c29cc77/~~1874310c-4130-4b8c-8829-aef33d1c0723~Highlight rows
+
+Top 10 Viz Tips Part III~sheet~cd4a05cd-c27c-4e46-a2f0-bfb25501f5e7~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/cd4a05cd-c27c-4e46-a2f0-bfb25501f5e7/~~1874310c-4130-4b8c-8829-aef33d1c0723~Larger scrollbars
+
+Top 10 Viz Tips Part III~sheet~c637644c-9cb9-4ad9-94f1-d56163df0aee~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/c637644c-9cb9-4ad9-94f1-d56163df0aee/~~1874310c-4130-4b8c-8829-aef33d1c0723~Toolbar toggle
+
+Top 10 Viz Tips Part III~sheet~8e92a66c-d36f-4037-a28e-af8cb37443bb~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/8e92a66c-d36f-4037-a28e-af8cb37443bb/~~1874310c-4130-4b8c-8829-aef33d1c0723~Slope graph
+
+Top 10 Viz Tips Part III~sheet~accc3561-5d82-4565-8211-ef90e1bdc457~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/accc3561-5d82-4565-8211-ef90e1bdc457/~~1874310c-4130-4b8c-8829-aef33d1c0723~Rank chart
+
+Top 10 Viz Tips Part III~sheet~e078abff-80b6-429b-9155-22c4b103ef4a~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/e078abff-80b6-429b-9155-22c4b103ef4a/~~1874310c-4130-4b8c-8829-aef33d1c0723~Thumbnails
+
+Top 10 Viz Tips Part III~sheet~e4d43329-9127-415a-ad4d-87dabb95d60c~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/e4d43329-9127-415a-ad4d-87dabb95d60c/~~1874310c-4130-4b8c-8829-aef33d1c0723~Persistent colors
+
+Top 10 Viz Tips Part III~sheet~58a08950-046e-4d71-9456-d9db393c7c04~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/58a08950-046e-4d71-9456-d9db393c7c04/~~1874310c-4130-4b8c-8829-aef33d1c0723~Calendar Graph - Year view
+
+Top 10 Viz Tips Part III~sheet~a9a9c1ca-e8a9-49b3-8bfc-056cf5487e1e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/a9a9c1ca-e8a9-49b3-8bfc-056cf5487e1e/~~1874310c-4130-4b8c-8829-aef33d1c0723~Color thresholds
+
+Top 10 Viz Tips Part III~sheet~823c0707-1de9-4988-b18a-caa6bcd62716~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/823c0707-1de9-4988-b18a-caa6bcd62716/~~1874310c-4130-4b8c-8829-aef33d1c0723~Hide toolbar
+
+Top 10 Viz Tips Part III~sheet~627a5d4d-91e4-451a-95b4-413f5284060b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/627a5d4d-91e4-451a-95b4-413f5284060b/~~1874310c-4130-4b8c-8829-aef33d1c0723~Hide selection bar
+
+Top 10 Viz Tips Part III~sheet~1c392518-abf0-4314-aa9c-a7b356c2d153~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/1c392518-abf0-4314-aa9c-a7b356c2d153/~~1874310c-4130-4b8c-8829-aef33d1c0723~Hide search bar
+
+Top 10 Viz Tips Part III~sheet~12f74910-030c-430a-9295-a67235ab1154~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/12f74910-030c-430a-9295-a67235ab1154/~~1874310c-4130-4b8c-8829-aef33d1c0723~100% bar charts
+
+Top 10 Viz Tips Part III~sheet~744b0fd9-b834-4647-b257-68b5e596ce54~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/744b0fd9-b834-4647-b257-68b5e596ce54/~~1874310c-4130-4b8c-8829-aef33d1c0723~Hide popup buttons
+
+Top 10 Viz Tips Part III~sheet~9e77c369-5b7c-4e8a-bfd2-1f8b7d730229~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/9e77c369-5b7c-4e8a-bfd2-1f8b7d730229/~~1874310c-4130-4b8c-8829-aef33d1c0723~Hide Pivot buttons
+
+Top 10 Viz Tips Part III~sheet~84827199-ea0c-46a5-a8b7-551b9fb20090~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/84827199-ea0c-46a5-a8b7-551b9fb20090/~~1874310c-4130-4b8c-8829-aef33d1c0723~Magic quadrant
+
+Top 10 Viz Tips Part III~sheet~2a783d72-559b-4b75-9256-44149f981b2c~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/2a783d72-559b-4b75-9256-44149f981b2c/~Radial bar charts~1874310c-4130-4b8c-8829-aef33d1c0723~Radial bar charts
+
+Top 10 Viz Tips Part III~sheet~d6a97eca-0b1c-4294-a69e-f8db330af2c2~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/d6a97eca-0b1c-4294-a69e-f8db330af2c2/~~1874310c-4130-4b8c-8829-aef33d1c0723~Quarterly month average
+
+Top 10 Viz Tips Part III~sheet~403a9a59-a7f7-4dec-b97b-9d1f0857f80a~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/403a9a59-a7f7-4dec-b97b-9d1f0857f80a/~~1874310c-4130-4b8c-8829-aef33d1c0723~Race chart
+
+Top 10 Viz Tips Part III~sheet~42a5686e-989e-4ee3-be43-97fa535c8816~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/42a5686e-989e-4ee3-be43-97fa535c8816/~~1874310c-4130-4b8c-8829-aef33d1c0723~Title and text matters more than we think
+
+Top 10 Viz Tips Part III~sheet~bf020a44-7ec6-436f-b595-1f6db8928f00~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/bf020a44-7ec6-436f-b595-1f6db8928f00/~~1874310c-4130-4b8c-8829-aef33d1c0723~Trellis container
+
+Top 10 Viz Tips Part III~sheet~8055e643-09af-4df4-b537-c3667d071d34~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/8055e643-09af-4df4-b537-c3667d071d34/~~1874310c-4130-4b8c-8829-aef33d1c0723~Responsive and mobile tips
+
+Top 10 Viz Tips Part III~sheet~1f03c222-75df-4057-bbf2-45b0d9fd7e41~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/1874310c-4130-4b8c-8829-aef33d1c0723/sheet/1f03c222-75df-4057-bbf2-45b0d9fd7e41/~~1874310c-4130-4b8c-8829-aef33d1c0723~Watermark
+
+Top 10 Geo Tricks - Qonn 19~sheet~12d0ad13-6667-4d7b-8b0a-61a09af31a5e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/12d0ad13-6667-4d7b-8b0a-61a09af31a5e/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Link to app
+
+Top 10 Geo Tricks - Qonn 19~sheet~45317b49-dbb8-405e-b805-1c0b338ea865~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/45317b49-dbb8-405e-b805-1c0b338ea865/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Link GeoJSON
+
+Top 10 Geo Tricks - Qonn 19~sheet~c5c11f83-b339-45e4-beb2-5e1f565e98a5~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/c5c11f83-b339-45e4-beb2-5e1f565e98a5/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~WMS Wizard
+
+Top 10 Geo Tricks - Qonn 19~sheet~0ff655fd-0778-4346-b112-72e5993de713~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/0ff655fd-0778-4346-b112-72e5993de713/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~MS SQL Server access
+
+Top 10 Geo Tricks - Qonn 19~sheet~f8a72565-ba90-4d82-8cdc-cd9f9a334db7~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/f8a72565-ba90-4d82-8cdc-cd9f9a334db7/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Loading all extensions
+
+Top 10 Geo Tricks - Qonn 19~sheet~e64fd3b6-26ba-4ad5-8b8d-f16d05ae4569~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/e64fd3b6-26ba-4ad5-8b8d-f16d05ae4569/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Use standard areas at call
+
+Top 10 Geo Tricks - Qonn 19~sheet~4dd889b1-7465-44db-809b-3c77dfd289ac~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/4dd889b1-7465-44db-809b-3c77dfd289ac/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Simplify for Within
+
+Top 10 Geo Tricks - Qonn 19~sheet~3afd2aee-8397-419f-993a-111458a6c749~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/3afd2aee-8397-419f-993a-111458a6c749/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Bin Intersect vs Within
+
+Top 10 Geo Tricks - Qonn 19~sheet~3a366569-c6ad-48a3-bb0b-c9d87da25e62~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/3a366569-c6ad-48a3-bb0b-c9d87da25e62/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Class coloring
+
+Top 10 Geo Tricks - Qonn 19~sheet~51c68cba-22d6-498c-a5bc-ed43a5725cf5~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/51c68cba-22d6-498c-a5bc-ed43a5725cf5/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Expression switcher
+
+Top 10 Geo Tricks - Qonn 19~sheet~fa6e05ad-3a83-42ee-ab37-31242c2b7b76~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/fa6e05ad-3a83-42ee-ab37-31242c2b7b76/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Layer switcher
+
+Top 10 Geo Tricks - Qonn 19~sheet~bc9f026e-00ce-48e7-82df-f726c33a3688~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/bc9f026e-00ce-48e7-82df-f726c33a3688/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Layer with top 5
+
+Top 10 Geo Tricks - Qonn 19~sheet~0ac46b2a-1c7e-49cb-bfc5-b297ed19494d~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/0ac46b2a-1c7e-49cb-bfc5-b297ed19494d/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Map as legend
+
+Top 10 Geo Tricks - Qonn 19~sheet~94aace5e-570d-4d59-9195-fca64e0131fc~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/94aace5e-570d-4d59-9195-fca64e0131fc/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Multi symbol layers
+
+Top 10 Geo Tricks - Qonn 19~sheet~30be4e04-a384-43b7-b648-bf36e26a1614~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/30be4e04-a384-43b7-b648-bf36e26a1614/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Reverse lookup with Within
+
+Top 10 Geo Tricks - Qonn 19~sheet~4e96d34d-2f78-4aea-8e43-4b9737c483c1~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/4e96d34d-2f78-4aea-8e43-4b9737c483c1/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Extending QGA
+
+Top 10 Geo Tricks - Qonn 19~sheet~2f35e745-5559-483a-8ee5-692dece14e5a~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/2f35e745-5559-483a-8ee5-692dece14e5a/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Map insets
+
+Top 10 Geo Tricks - Qonn 19~sheet~9d44dbf6-51bc-48d1-b45c-8e822e49b965~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/9d44dbf6-51bc-48d1-b45c-8e822e49b965/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Use native map
+
+Top 10 Geo Tricks - Qonn 19~sheet~027b62a1-d9c0-446b-89bc-2186823b57fe~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/027b62a1-d9c0-446b-89bc-2186823b57fe/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Export to GeoJSON
+
+Top 10 Geo Tricks - Qonn 19~sheet~e6d675b5-fc7e-4045-aebd-70298c9de3f0~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/e6d675b5-fc7e-4045-aebd-70298c9de3f0/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Realtime traffic
+
+Top 10 Geo Tricks - Qonn 19~sheet~7e330a64-2ff0-4e02-8a64-e9e697be2abc~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/7e330a64-2ff0-4e02-8a64-e9e697be2abc/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Closest using routes
+
+Top 10 Geo Tricks - Qonn 19~sheet~7315c4a6-00f2-4639-870e-d4bff17ce7c7~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/7315c4a6-00f2-4639-870e-d4bff17ce7c7/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Top 10 Geo Tricks - Qonnections 2019
+
+Top 10 Geo Tricks - Qonn 19~sheet~0905b6e7-02fc-4b41-8864-369338447d08~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8c722407-0256-4a7c-9f02-a00bf1a3c647/sheet/0905b6e7-02fc-4b41-8864-369338447d08/~~8c722407-0256-4a7c-9f02-a00bf1a3c647~Find the Neighbor
+
+Top 10 Viz Tips Part II~sheet~b08ddcdb-0db5-4d77-be24-7ba1e9ed4f13~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/b08ddcdb-0db5-4d77-be24-7ba1e9ed4f13/~~02a39856-de2f-42b7-898f-54df24ab76f8~IBCS charts
+
+Top 10 Viz Tips Part II~sheet~dd328e7f-4017-426a-b53e-cf7d8114b902~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/dd328e7f-4017-426a-b53e-cf7d8114b902/~~02a39856-de2f-42b7-898f-54df24ab76f8~Venn diagram nr 2
+
+Top 10 Viz Tips Part II~sheet~ad0129ee-bd2f-4836-85ca-bbc0cc485b51~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/ad0129ee-bd2f-4836-85ca-bbc0cc485b51/~~02a39856-de2f-42b7-898f-54df24ab76f8~Filter sliders
+
+Top 10 Viz Tips Part II~sheet~b915f959-ea7b-4489-86b2-e4afef89a62a~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/b915f959-ea7b-4489-86b2-e4afef89a62a/~~02a39856-de2f-42b7-898f-54df24ab76f8~Check boxes and radio buttons
+
+Top 10 Viz Tips Part II~sheet~9d2a26d1-2fb9-423a-88e6-2f70de835836~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/9d2a26d1-2fb9-423a-88e6-2f70de835836/~~02a39856-de2f-42b7-898f-54df24ab76f8~Search options
+
+Top 10 Viz Tips Part II~sheet~bdaa25df-4414-4762-ac15-276ea25f4739~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/bdaa25df-4414-4762-ac15-276ea25f4739/~~02a39856-de2f-42b7-898f-54df24ab76f8~Control Chart
+
+Top 10 Viz Tips Part II~sheet~61f6bb0f-5283-4aca-95df-b1205bb26a83~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/61f6bb0f-5283-4aca-95df-b1205bb26a83/~~02a39856-de2f-42b7-898f-54df24ab76f8~Dimension dependent master measures
+
+Top 10 Viz Tips Part II~sheet~6d471aaf-dcbe-4a3c-a48c-c6cc3e61d6be~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/6d471aaf-dcbe-4a3c-a48c-c6cc3e61d6be/~~02a39856-de2f-42b7-898f-54df24ab76f8~Stripe chart
+
+Top 10 Viz Tips Part II~sheet~5d51a962-0a92-4821-bb9e-df1c44a1e2f9~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/5d51a962-0a92-4821-bb9e-df1c44a1e2f9/~~02a39856-de2f-42b7-898f-54df24ab76f8~Line graphs with bands
+
+Top 10 Viz Tips Part II~sheet~3ac5d2f1-2ce2-4be0-a073-675979893dd2~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/3ac5d2f1-2ce2-4be0-a073-675979893dd2/~~02a39856-de2f-42b7-898f-54df24ab76f8~Cyclic measures
+
+Top 10 Viz Tips Part II~sheet~a21a59a9-80af-4f31-8332-18138572b6bf~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/a21a59a9-80af-4f31-8332-18138572b6bf/~~02a39856-de2f-42b7-898f-54df24ab76f8~Venn diagram
+
+Top 10 Viz Tips Part II~sheet~2ddd8113-4b49-492c-96aa-2566f1a32244~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/2ddd8113-4b49-492c-96aa-2566f1a32244/~~02a39856-de2f-42b7-898f-54df24ab76f8~Master item management
+
+Top 10 Viz Tips Part II~sheet~d7590885-097b-40e6-88e4-b70380db348e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/d7590885-097b-40e6-88e4-b70380db348e/~~02a39856-de2f-42b7-898f-54df24ab76f8~KPI with indicators
+
+Top 10 Viz Tips Part II~sheet~8bf36ca0-f3ff-4d76-b793-1d82cffb808e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/8bf36ca0-f3ff-4d76-b793-1d82cffb808e/~~02a39856-de2f-42b7-898f-54df24ab76f8~Triggers and email alerts
+
+Top 10 Viz Tips Part II~sheet~27d26d3b-0d52-4f10-be08-6b0a46ff9867~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/27d26d3b-0d52-4f10-be08-6b0a46ff9867/~~02a39856-de2f-42b7-898f-54df24ab76f8~Best selling combo
+
+Top 10 Viz Tips Part II~sheet~f4116891-9753-4ab9-8aa4-bae17badfe03~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/f4116891-9753-4ab9-8aa4-bae17badfe03/~~02a39856-de2f-42b7-898f-54df24ab76f8~Comparing tables
+
+Top 10 Viz Tips Part II~sheet~6ab16b3f-b203-4685-9053-1c7e43711ee1~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/6ab16b3f-b203-4685-9053-1c7e43711ee1/~~02a39856-de2f-42b7-898f-54df24ab76f8~TreeView
+
+Top 10 Viz Tips Part II~sheet~1f74a628-ea3b-450c-8bf2-ca0390ed7cbf~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/1f74a628-ea3b-450c-8bf2-ca0390ed7cbf/~~02a39856-de2f-42b7-898f-54df24ab76f8~Add descriptions to charts
+
+Top 10 Viz Tips Part II~sheet~84a324a5-98e1-47e4-8961-91768d28890f~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/84a324a5-98e1-47e4-8961-91768d28890f/~~02a39856-de2f-42b7-898f-54df24ab76f8~Current selection
+
+Top 10 Viz Tips Part II~sheet~74562e49-a447-4556-9b6f-b76470d2804e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/74562e49-a447-4556-9b6f-b76470d2804e/~~02a39856-de2f-42b7-898f-54df24ab76f8~Pivot sort part 2, Pareto analysis
+
+Top 10 Viz Tips Part II~sheet~afa05f07-f559-430e-83ec-3f52d564abc4~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/afa05f07-f559-430e-83ec-3f52d564abc4/~~02a39856-de2f-42b7-898f-54df24ab76f8~Pivot table sort
+
+Top 10 Viz Tips Part II~sheet~02399206-576a-4059-a1df-e90908a6e783~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/02399206-576a-4059-a1df-e90908a6e783/~~02a39856-de2f-42b7-898f-54df24ab76f8~Brushing
+
+Top 10 Viz Tips Part II~sheet~ec24d980-7b17-4710-af97-f15b119c8cff~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/ec24d980-7b17-4710-af97-f15b119c8cff/~~02a39856-de2f-42b7-898f-54df24ab76f8~Target chart with CSS
+
+Top 10 Viz Tips Part II~sheet~601b7b15-0a99-47c8-90db-5784a605aa16~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/601b7b15-0a99-47c8-90db-5784a605aa16/~~02a39856-de2f-42b7-898f-54df24ab76f8~Special sum in table
+
+Top 10 Viz Tips Part II~sheet~23ae1d78-38c4-49a7-baa0-f39d03962caa~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/23ae1d78-38c4-49a7-baa0-f39d03962caa/~~02a39856-de2f-42b7-898f-54df24ab76f8~Drill down bread crumbs
+
+Top 10 Viz Tips Part II~sheet~cb02c247-10c6-4e2a-a321-f6c2bcd460ae~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/cb02c247-10c6-4e2a-a321-f6c2bcd460ae/~~02a39856-de2f-42b7-898f-54df24ab76f8~Container tips
+
+Top 10 Viz Tips Part II~sheet~fd05c178-1f14-4989-88f5-7f0b9f4d9aa9~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/fd05c178-1f14-4989-88f5-7f0b9f4d9aa9/~~02a39856-de2f-42b7-898f-54df24ab76f8~Alternate states
+
+Top 10 Viz Tips Part II~sheet~dc381b22-0a58-4aec-a58d-e5a4662307e0~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/dc381b22-0a58-4aec-a58d-e5a4662307e0/~~02a39856-de2f-42b7-898f-54df24ab76f8~Vertical waterfall
+
+Top 10 Viz Tips Part II~sheet~b6a24df9-9d97-4d14-868f-a4007cf725d8~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/b6a24df9-9d97-4d14-868f-a4007cf725d8/~~02a39856-de2f-42b7-898f-54df24ab76f8~Select by list
+
+Top 10 Viz Tips Part II~sheet~8f67a6a2-23e0-4b5e-937a-36d6449a7e26~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/8f67a6a2-23e0-4b5e-937a-36d6449a7e26/~~02a39856-de2f-42b7-898f-54df24ab76f8~Annotations
+
+Top 10 Viz Tips Part II~sheet~90fda2e4-7db4-4305-9fd9-0bdcd0af1a74~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/90fda2e4-7db4-4305-9fd9-0bdcd0af1a74/~~02a39856-de2f-42b7-898f-54df24ab76f8~Bullet chart in table
+
+Top 10 Viz Tips Part II~sheet~17225b9d-ac7a-40ee-8a7b-58d387384852~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/17225b9d-ac7a-40ee-8a7b-58d387384852/~~02a39856-de2f-42b7-898f-54df24ab76f8~Distribution plot tips
+
+Top 10 Viz Tips Part II~sheet~aed0a2bf-b0b3-4600-b883-d7964d0fa110~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/aed0a2bf-b0b3-4600-b883-d7964d0fa110/~~02a39856-de2f-42b7-898f-54df24ab76f8~Lines and markers
+
+Top 10 Viz Tips Part II~sheet~52db03f8-c84e-4b2c-a4af-bb6db7ee2f4a~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/52db03f8-c84e-4b2c-a4af-bb6db7ee2f4a/~~02a39856-de2f-42b7-898f-54df24ab76f8~Sharper tables
+
+Top 10 Viz Tips Part II~sheet~f968eb9c-fe2c-482c-a09c-111aa4a26c02~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/f968eb9c-fe2c-482c-a09c-111aa4a26c02/~~02a39856-de2f-42b7-898f-54df24ab76f8~Show conditions
+
+Top 10 Viz Tips Part II~sheet~79d7092b-1f56-4f89-886b-b58dfc2ca76b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/79d7092b-1f56-4f89-886b-b58dfc2ca76b/~~02a39856-de2f-42b7-898f-54df24ab76f8~Horizontal filters
+
+Top 10 Viz Tips Part II~sheet~4c0c5186-937b-4d79-ad73-75697d501823~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/4c0c5186-937b-4d79-ad73-75697d501823/~~02a39856-de2f-42b7-898f-54df24ab76f8~Mix value and percentage
+
+Top 10 Viz Tips Part II~sheet~effc0d89-d50d-46ea-8b00-0bd6d29cd7ea~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/effc0d89-d50d-46ea-8b00-0bd6d29cd7ea/~~02a39856-de2f-42b7-898f-54df24ab76f8~Stacking and grouping
+
+Top 10 Viz Tips Part II~sheet~a7d759d1-97b4-4639-bc21-71cb145fa11b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/a7d759d1-97b4-4639-bc21-71cb145fa11b/~~02a39856-de2f-42b7-898f-54df24ab76f8~Lollipop chart
+
+Top 10 Viz Tips Part II~sheet~43af4c5f-71ab-41bf-b15f-feca4cebf5a2~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/43af4c5f-71ab-41bf-b15f-feca4cebf5a2/~~02a39856-de2f-42b7-898f-54df24ab76f8~Positive and negative bars in the same column
+
+Top 10 Viz Tips Part II~sheet~c1aac44e-5ecb-4cf5-87ee-3d4931a6ab9e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/02a39856-de2f-42b7-898f-54df24ab76f8/sheet/c1aac44e-5ecb-4cf5-87ee-3d4931a6ab9e/~~02a39856-de2f-42b7-898f-54df24ab76f8~Gauges
+
+Top 10 Viz Tips Part VI~sheet~b2462f82-e54b-4d98-a5ef-eb64a8fe21fd~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/b2462f82-e54b-4d98-a5ef-eb64a8fe21fd/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Harvey Balls
+
+Top 10 Viz Tips Part VI~sheet~fd95b8c7-a943-4b69-b3fc-d54365de4f5b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/fd95b8c7-a943-4b69-b3fc-d54365de4f5b/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Custom x-axis
+
+Top 10 Viz Tips Part VI~sheet~d6a5d9e4-cbed-49d8-9e4e-4c71040c06a3~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/d6a5d9e4-cbed-49d8-9e4e-4c71040c06a3/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Table bar chart
+
+Top 10 Viz Tips Part VI~sheet~569ef136-9aab-4541-949b-06b4c7440baa~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/569ef136-9aab-4541-949b-06b4c7440baa/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Lexis chart
+
+Top 10 Viz Tips Part VI~sheet~84849f5e-a1c7-4ce1-bba3-06107489a88b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/84849f5e-a1c7-4ce1-bba3-06107489a88b/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Radar chart properties
+
+Top 10 Viz Tips Part VI~sheet~b5cefcae-2d7b-4d9b-8e55-20df6adb3c97~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/b5cefcae-2d7b-4d9b-8e55-20df6adb3c97/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Legend with word wrap
+
+Top 10 Viz Tips Part VI~sheet~c3384671-a1e3-4bd1-8a60-65c79de9b1d2~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/c3384671-a1e3-4bd1-8a60-65c79de9b1d2/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Highlighting selected value
+
+Top 10 Viz Tips Part VI~sheet~5a60ea91-daef-4341-8ebd-6e552ea18998~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/5a60ea91-daef-4341-8ebd-6e552ea18998/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Timeline
+
+Top 10 Viz Tips Part VI~sheet~c766bc9f-ab93-41ad-aaa7-ea4cb6cebbe5~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/c766bc9f-ab93-41ad-aaa7-ea4cb6cebbe5/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Stacked radial plot
+
+Top 10 Viz Tips Part VI~sheet~2d2ea99b-9704-4c4f-8719-77af08881bee~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/2d2ea99b-9704-4c4f-8719-77af08881bee/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Activity gauge revisited
+
+Top 10 Viz Tips Part VI~sheet~9923ebdf-0523-4246-8f60-b373275f438b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/9923ebdf-0523-4246-8f60-b373275f438b/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Labels on calc dims in drill downs
+
+Top 10 Viz Tips Part VI~sheet~a6845ec3-36e3-4164-86d6-9580967c0b82~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/a6845ec3-36e3-4164-86d6-9580967c0b82/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Conditional bg color
+
+Top 10 Viz Tips Part VI~sheet~9d060398-d180-4107-bffd-5f0238c75a34~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/9d060398-d180-4107-bffd-5f0238c75a34/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Lollipop chart
+
+Top 10 Viz Tips Part VI~sheet~ec0e0412-22ea-4fc3-8416-9c959a50a381~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/ec0e0412-22ea-4fc3-8416-9c959a50a381/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Custom labels on stacked bars 2
+
+Top 10 Viz Tips Part VI~sheet~80a420a4-b3ed-4bff-a70c-843ae20448a1~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/80a420a4-b3ed-4bff-a70c-843ae20448a1/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Background text in charts
+
+Top 10 Viz Tips Part VI~sheet~79a4cceb-0d4e-4c23-bdf9-4861d9418d47~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/79a4cceb-0d4e-4c23-bdf9-4861d9418d47/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Icicle chart
+
+Top 10 Viz Tips Part VI~sheet~4762a919-9e18-49b0-b986-cb0f7b4964c7~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/4762a919-9e18-49b0-b986-cb0f7b4964c7/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Deviation Icicle chart
+
+Top 10 Viz Tips Part VI~sheet~208923fb-a890-466f-af10-d19e5a810972~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/208923fb-a890-466f-af10-d19e5a810972/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Embed labels
+
+Top 10 Viz Tips Part VI~sheet~61382c83-d183-43aa-8c08-f1ec9e7dae3e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/61382c83-d183-43aa-8c08-f1ec9e7dae3e/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Gantt revisited with new combo
+
+Top 10 Viz Tips Part VI~sheet~5ffccc18-3e58-4d90-a5b0-f6328104d81b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/5ffccc18-3e58-4d90-a5b0-f6328104d81b/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Step chart
+
+Top 10 Viz Tips Part VI~sheet~4abd4394-4c9b-41c2-ab9b-f785a3a1585a~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/4abd4394-4c9b-41c2-ab9b-f785a3a1585a/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Pajama striping table with CSS
+
+Top 10 Viz Tips Part VI~sheet~76891ceb-a329-420a-a28a-445da99b8cc7~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/76891ceb-a329-420a-a28a-445da99b8cc7/~~8d51ff55-4197-4386-bc39-4350bce35ccf~KPI Image background
+
+Top 10 Viz Tips Part VI~sheet~1f01f4ea-7a83-4cdd-b5f7-5e6aafb64c6c~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/1f01f4ea-7a83-4cdd-b5f7-5e6aafb64c6c/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Force label in stacked bar chart
+
+Top 10 Viz Tips Part VI~sheet~d4305687-54a6-4a0a-a64d-b1d0568100ed~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/d4305687-54a6-4a0a-a64d-b1d0568100ed/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Grid chart with pies
+
+Top 10 Viz Tips Part VI~sheet~884d0a64-59aa-44ca-a32c-747eda094550~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/884d0a64-59aa-44ca-a32c-747eda094550/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Stacked Venn chart
+
+Top 10 Viz Tips Part VI~sheet~b4d279ed-ddd7-4d01-ae88-3417ed555ce3~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/b4d279ed-ddd7-4d01-ae88-3417ed555ce3/~~8d51ff55-4197-4386-bc39-4350bce35ccf~1000 column table
+
+Top 10 Viz Tips Part VI~sheet~8604b5ea-9537-47fa-a738-92c57b8074d2~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/8604b5ea-9537-47fa-a738-92c57b8074d2/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Filter data in a chart
+
+Top 10 Viz Tips Part VI~sheet~4fa293d5-e9b6-49ad-bf93-766ece3f3069~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/4fa293d5-e9b6-49ad-bf93-766ece3f3069/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Adding help
+
+Top 10 Viz Tips Part VI~sheet~799b135c-66ff-470a-9598-b13f3e92d13d~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/799b135c-66ff-470a-9598-b13f3e92d13d/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Hide table header
+
+Top 10 Viz Tips Part VI~sheet~a0f77907-98cb-4c6c-99ce-bdd9961bd4c7~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/a0f77907-98cb-4c6c-99ce-bdd9961bd4c7/~~8d51ff55-4197-4386-bc39-4350bce35ccf~KPI font in right size
+
+Top 10 Viz Tips Part VI~sheet~641ef2c4-c921-4617-b7bf-6fa70c6bb21f~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/641ef2c4-c921-4617-b7bf-6fa70c6bb21f/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Button text in the right size
+
+Top 10 Viz Tips Part VI~sheet~6e5f8cca-5fb1-48f1-83d7-799455bd8e53~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/6e5f8cca-5fb1-48f1-83d7-799455bd8e53/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Venn diagram for two set
+
+Top 10 Viz Tips Part VI~sheet~e356b98b-70f7-4f3b-b018-2ac3b0c2e782~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/e356b98b-70f7-4f3b-b018-2ac3b0c2e782/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Donut with center text 2
+
+Top 10 Viz Tips Part VI~sheet~43065cfe-6476-4c1d-acb6-38af156c709f~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/43065cfe-6476-4c1d-acb6-38af156c709f/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Custom labels stacked bar chart
+
+Top 10 Viz Tips Part VI~sheet~e68faf00-1241-4077-bf8c-d8ee86f6e23d~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/e68faf00-1241-4077-bf8c-d8ee86f6e23d/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Significant digits
+
+Top 10 Viz Tips Part VI~sheet~808d0e5a-00f6-43a7-a5f1-e176bb56f64d~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/808d0e5a-00f6-43a7-a5f1-e176bb56f64d/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Cross chart
+
+Top 10 Viz Tips Part VI~sheet~dbac2373-e15a-48fb-b34b-a085c006d259~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/8d51ff55-4197-4386-bc39-4350bce35ccf/sheet/dbac2373-e15a-48fb-b34b-a085c006d259/~~8d51ff55-4197-4386-bc39-4350bce35ccf~Reference line for top 5 and 50%
+
+Top 10 Viz Tips Part IV~sheet~70497aa0-ac99-41d5-9adf-82f6b99f066b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/70497aa0-ac99-41d5-9adf-82f6b99f066b/~~2a206afe-b62f-4d05-be0d-89f62285a450~URL Encoding
+
+Top 10 Viz Tips Part IV~sheet~e3ada356-b42b-4f33-905e-d913e6fbf8a3~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/e3ada356-b42b-4f33-905e-d913e6fbf8a3/~How to make a pivot table with two measures in the totals rows.~2a206afe-b62f-4d05-be0d-89f62285a450~Custom pivot totals
+
+Top 10 Viz Tips Part IV~sheet~3195a17f-ce32-4cb5-9f21-f79a498a33fc~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/3195a17f-ce32-4cb5-9f21-f79a498a33fc/~When working with choropleths (colored areas) it's easy that the geography takes over and shadows the measure that we are trying to emphasize.~2a206afe-b62f-4d05-be0d-89f62285a450~Land or Population
+
+Top 10 Viz Tips Part IV~sheet~9e9930f5-086e-4fc0-a3a1-453a28cb3c04~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/9e9930f5-086e-4fc0-a3a1-453a28cb3c04/~How to combine a graph with a table.~2a206afe-b62f-4d05-be0d-89f62285a450~Graph and Table
+
+Top 10 Viz Tips Part IV~sheet~82463866-5dbb-4a6a-9d78-db69d7facc79~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/82463866-5dbb-4a6a-9d78-db69d7facc79/~Sometimes the standard palette is not enough, especially when working with drill downs and dimensions with many possible values.  Dim values with similar names can get a colors that are too close and hard to distinguish from each other.~2a206afe-b62f-4d05-be0d-89f62285a450~Color by rank
+
+Top 10 Viz Tips Part IV~sheet~17c43f96-6bc3-4903-a5b1-502e0ba00dee~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/17c43f96-6bc3-4903-a5b1-502e0ba00dee/~How to make a three measure KPI with conditional colors~2a206afe-b62f-4d05-be0d-89f62285a450~KPI with the text & image
+
+Top 10 Viz Tips Part IV~sheet~1dfb0648-1be4-4591-b533-a4a8ec6f4cf4~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/1dfb0648-1be4-4591-b533-a4a8ec6f4cf4/~A variant of the radial bar chart, this time grouped with percentages and a target. The bars have an offset from the center.~2a206afe-b62f-4d05-be0d-89f62285a450~Radial bar chart revisited
+
+Top 10 Viz Tips Part IV~sheet~adc0140a-3cd3-4272-b480-4223c2a78ede~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/adc0140a-3cd3-4272-b480-4223c2a78ede/~How to make a concentric ellipses chart. Or as some call it, a Fish eye chart.~2a206afe-b62f-4d05-be0d-89f62285a450~Fish Eye chart
+
+Top 10 Viz Tips Part IV~sheet~1f8764d5-32c9-4473-8f13-06d648d6f208~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/1f8764d5-32c9-4473-8f13-06d648d6f208/~~2a206afe-b62f-4d05-be0d-89f62285a450~Circle timeline
+
+Top 10 Viz Tips Part IV~sheet~6cc0cf0a-0172-4006-889d-68413579aefe~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/6cc0cf0a-0172-4006-889d-68413579aefe/~How to make a violin plot.~2a206afe-b62f-4d05-be0d-89f62285a450~Violin plot
+
+Top 10 Viz Tips Part IV~sheet~5ec94086-f4e7-4005-9ad4-67908b84290b~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/5ec94086-f4e7-4005-9ad4-67908b84290b/~How to make a radial bar chart. Or as some call it, an Activity gauge.  Looks nice but can be hard to read compared to a straight bar chart. Popular as a gauge.~2a206afe-b62f-4d05-be0d-89f62285a450~Radial bar chart / Activity gauge
+
+Top 10 Viz Tips Part IV~sheet~18ca3c4f-cbc1-4fdc-8d95-acde4907dac9~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/18ca3c4f-cbc1-4fdc-8d95-acde4907dac9/~~2a206afe-b62f-4d05-be0d-89f62285a450~Autoscale
+
+Top 10 Viz Tips Part IV~sheet~31e42f8e-b849-4488-95cd-3506528af0ef~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/31e42f8e-b849-4488-95cd-3506528af0ef/~~2a206afe-b62f-4d05-be0d-89f62285a450~Pivot with multi lines
+
+Top 10 Viz Tips Part IV~sheet~b5abb159-40f5-4946-91f1-76b0c65fdff1~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/b5abb159-40f5-4946-91f1-76b0c65fdff1/~~2a206afe-b62f-4d05-be0d-89f62285a450~Kanban by straight table
+
+Top 10 Viz Tips Part IV~sheet~f1f83941-5dae-4d6f-b361-b34ae4d1f131~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/f1f83941-5dae-4d6f-b361-b34ae4d1f131/~~2a206afe-b62f-4d05-be0d-89f62285a450~Kanban by org chart
+
+Top 10 Viz Tips Part IV~sheet~0316c983-fa78-49e5-abb9-f63b830678a1~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/0316c983-fa78-49e5-abb9-f63b830678a1/~~2a206afe-b62f-4d05-be0d-89f62285a450~Line break in button
+
+Top 10 Viz Tips Part IV~sheet~6213a1fb-1dc3-4f8c-b46f-979c7687d7b1~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/6213a1fb-1dc3-4f8c-b46f-979c7687d7b1/~~2a206afe-b62f-4d05-be0d-89f62285a450~Pick and match
+
+Top 10 Viz Tips Part IV~sheet~79b3ade6-bc0b-4eab-bb62-3b5b2a08f5a2~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/79b3ade6-bc0b-4eab-bb62-3b5b2a08f5a2/~~2a206afe-b62f-4d05-be0d-89f62285a450~Gantt - map chart version
+
+Top 10 Viz Tips Part IV~sheet~23a7075b-ef9f-40de-99bc-d849195cc08d~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/23a7075b-ef9f-40de-99bc-d849195cc08d/~~2a206afe-b62f-4d05-be0d-89f62285a450~Avoid formulas in selection bar
+
+Top 10 Viz Tips Part IV~sheet~a0e1398d-98c7-4470-a417-de09c307eb87~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/a0e1398d-98c7-4470-a417-de09c307eb87/~~2a206afe-b62f-4d05-be0d-89f62285a450~Stacked Venn Chart
+
+Top 10 Viz Tips Part IV~sheet~34bc39c9-e21d-4bf4-aabf-28fc86333ec7~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/34bc39c9-e21d-4bf4-aabf-28fc86333ec7/~~2a206afe-b62f-4d05-be0d-89f62285a450~Stacked butterfly chart
+
+Top 10 Viz Tips Part IV~sheet~73c6c866-1e05-42c7-8132-b89de6b0183f~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/73c6c866-1e05-42c7-8132-b89de6b0183f/~~2a206afe-b62f-4d05-be0d-89f62285a450~Compare with previous period
+
+Top 10 Viz Tips Part IV~sheet~78e42aa9-fd99-409f-a891-25cdb9074d0c~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/78e42aa9-fd99-409f-a891-25cdb9074d0c/~~2a206afe-b62f-4d05-be0d-89f62285a450~Document chaining
+
+Top 10 Viz Tips Part IV~sheet~88193906-1ada-4734-a6d8-5930663fc244~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/88193906-1ada-4734-a6d8-5930663fc244/~~2a206afe-b62f-4d05-be0d-89f62285a450~Compare with last year
+
+Top 10 Viz Tips Part IV~sheet~37c2efc4-ee90-42ad-ad1d-c41e1a9ac354~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/37c2efc4-ee90-42ad-ad1d-c41e1a9ac354/~~2a206afe-b62f-4d05-be0d-89f62285a450~Switch
+
+Top 10 Viz Tips Part IV~sheet~573120d5-7c9a-4bca-aab2-61729c5c2498~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/573120d5-7c9a-4bca-aab2-61729c5c2498/~~2a206afe-b62f-4d05-be0d-89f62285a450~Charts for animation
+
+Top 10 Viz Tips Part IV~sheet~6bd9a0e4-e54f-4d72-b1d7-e87aa9ac42aa~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/6bd9a0e4-e54f-4d72-b1d7-e87aa9ac42aa/~~2a206afe-b62f-4d05-be0d-89f62285a450~Donut map layer
+
+Top 10 Viz Tips Part IV~sheet~106d644a-ffa2-4c0e-a3fe-97fcdbf73f18~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/106d644a-ffa2-4c0e-a3fe-97fcdbf73f18/~~2a206afe-b62f-4d05-be0d-89f62285a450~Pie chart with center text
+
+Top 10 Viz Tips Part IV~sheet~29ff9ec4-888f-43c4-a738-67c5bc9430db~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/29ff9ec4-888f-43c4-a738-67c5bc9430db/~~2a206afe-b62f-4d05-be0d-89f62285a450~Legend sort order
+
+Top 10 Viz Tips Part IV~sheet~113caa8e-c374-43d3-9298-5895d083ea1f~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/113caa8e-c374-43d3-9298-5895d083ea1f/~~2a206afe-b62f-4d05-be0d-89f62285a450~Text & image export
+
+Top 10 Viz Tips Part IV~sheet~00eb2ecd-4fa2-434a-8c21-92a8290bf480~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/00eb2ecd-4fa2-434a-8c21-92a8290bf480/~~2a206afe-b62f-4d05-be0d-89f62285a450~Org chart for KPIs
+
+Top 10 Viz Tips Part IV~sheet~6ada5f17-0a0a-4766-b49d-1d69fcc17393~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/2a206afe-b62f-4d05-be0d-89f62285a450/sheet/6ada5f17-0a0a-4766-b49d-1d69fcc17393/~~2a206afe-b62f-4d05-be0d-89f62285a450~Custom Data Labels
+
+Top 10 Viz Tips Part I~sheet~439c7333-c65b-4e5e-b153-25a26aab260c~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/439c7333-c65b-4e5e-b153-25a26aab260c/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Above and below
+
+Top 10 Viz Tips Part I~sheet~e6dcf32e-fed5-4322-9158-ecb4f86a9d2a~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/e6dcf32e-fed5-4322-9158-ecb4f86a9d2a/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Traffic lights
+
+Top 10 Viz Tips Part I~sheet~931b5f65-bb56-46b2-9abb-13043e5ecdb2~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/931b5f65-bb56-46b2-9abb-13043e5ecdb2/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Grid chart
+
+Top 10 Viz Tips Part I~sheet~2a7ea474-d3b0-4152-81b1-2e574e276ed2~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/2a7ea474-d3b0-4152-81b1-2e574e276ed2/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Offset measures
+
+Top 10 Viz Tips Part I~sheet~4199b76e-d044-4c6b-bae5-19b022ef47ec~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/4199b76e-d044-4c6b-bae5-19b022ef47ec/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Previous and Next
+
+Top 10 Viz Tips Part I~sheet~2e5f05bb-984a-4eff-b999-f2136030f68a~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/2e5f05bb-984a-4eff-b999-f2136030f68a/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Sparklines
+
+Top 10 Viz Tips Part I~sheet~30be4e04-a384-43b7-b648-bf36e26a1614~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/30be4e04-a384-43b7-b648-bf36e26a1614/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Butterfly chart
+
+Top 10 Viz Tips Part I~sheet~2c415086-1445-4cc8-b3be-1d151079defb~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/2c415086-1445-4cc8-b3be-1d151079defb/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Color above average
+
+Top 10 Viz Tips Part I~sheet~bd02d351-df2b-491f-b26d-8a75c8bf32c3~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/bd02d351-df2b-491f-b26d-8a75c8bf32c3/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Top 3 lines
+
+Top 10 Viz Tips Part I~sheet~d2905fb6-1edb-4ba4-bd49-f4732be20bc4~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/d2905fb6-1edb-4ba4-bd49-f4732be20bc4/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Link to app
+
+Top 10 Viz Tips Part I~sheet~c2b2a827-9a1f-4c04-b161-a87560769578~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/c2b2a827-9a1f-4c04-b161-a87560769578/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Pajama striping
+
+Top 10 Viz Tips Part I~sheet~f7e83630-ace9-4322-a1c2-06645b14da08~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/f7e83630-ace9-4322-a1c2-06645b14da08/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Change null color
+
+Top 10 Viz Tips Part I~sheet~1f709c4a-17df-49df-a198-d6637284ff07~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/1f709c4a-17df-49df-a198-d6637284ff07/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Accumulation
+
+Top 10 Viz Tips Part I~sheet~a0642c0d-c320-4ab6-9350-8de055dc6f43~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/a0642c0d-c320-4ab6-9350-8de055dc6f43/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Date search
+
+Top 10 Viz Tips Part I~sheet~8cee2112-1412-4371-9b14-f7c85d83ebfd~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/8cee2112-1412-4371-9b14-f7c85d83ebfd/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Map image background
+
+Top 10 Viz Tips Part I~sheet~14499276-c604-4791-a180-2e897d8328ea~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/14499276-c604-4791-a180-2e897d8328ea/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Dividers
+
+Top 10 Viz Tips Part I~sheet~b87a03bc-1d38-45ac-860f-86eeb4014288~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/b87a03bc-1d38-45ac-860f-86eeb4014288/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Dynamic charts
+
+Top 10 Viz Tips Part I~sheet~4fde3d8e-d239-419e-bb34-b2b1b15247b1~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/4fde3d8e-d239-419e-bb34-b2b1b15247b1/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Cyclic groups
+
+Top 10 Viz Tips Part I~sheet~aad34b56-ab01-48ec-85e4-395c7da0c9f6~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/aad34b56-ab01-48ec-85e4-395c7da0c9f6/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Indentation
+
+Top 10 Viz Tips Part I~sheet~a1c9f0c7-d4df-4147-80c2-2c0833442d64~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/a1c9f0c7-d4df-4147-80c2-2c0833442d64/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Subtotals and empty rows
+
+Top 10 Viz Tips Part I~sheet~a64741c1-ae98-4644-a0ec-116d25db2774~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/a64741c1-ae98-4644-a0ec-116d25db2774/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Sum with null
+
+Top 10 Viz Tips Part I~sheet~69f4c632-6344-43a8-904b-c06449f15811~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/69f4c632-6344-43a8-904b-c06449f15811/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Indicators and symbols
+
+Top 10 Viz Tips Part I~sheet~1acb6601-38ec-427a-84eb-338c07e09779~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/1acb6601-38ec-427a-84eb-338c07e09779/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Custom report
+
+Top 10 Viz Tips Part I~sheet~9c37cee5-5e64-4752-8dca-4a07b4c56395~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/9c37cee5-5e64-4752-8dca-4a07b4c56395/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Bell curves
+
+Top 10 Viz Tips Part I~sheet~c77f09f7-9393-4575-a87d-8b439764d8b2~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/c77f09f7-9393-4575-a87d-8b439764d8b2/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Trendlines
+
+Top 10 Viz Tips Part I~sheet~a95c0236-98b4-4c9d-8a7c-20ab8ead83ac~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/a95c0236-98b4-4c9d-8a7c-20ab8ead83ac/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Select null
+
+Top 10 Viz Tips Part I~sheet~23068815-441c-4ccc-a93f-0f74c54c2416~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/23068815-441c-4ccc-a93f-0f74c54c2416/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Dynamic bookmark
+
+Top 10 Viz Tips Part I~sheet~2116331e-3ab9-467f-8573-1c3f8fe6630e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/2116331e-3ab9-467f-8573-1c3f8fe6630e/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Gantt
+
+Top 10 Viz Tips Part I~sheet~7315c4a6-00f2-4639-870e-d4bff17ce7c7~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/ab1c7cf1-0bcf-490a-989a-57155c09cc7b/sheet/7315c4a6-00f2-4639-870e-d4bff17ce7c7/~~ab1c7cf1-0bcf-490a-989a-57155c09cc7b~Top 10 Viz Tricks - Qonnections 2019
+
+Top 10 Geo Tricks - Qonn 18~sheet~5c5a0068-c81f-4270-9b18-57e538522eff~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/5c5a0068-c81f-4270-9b18-57e538522eff/~testing for automation~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#0 Test location lookup
+
+Top 10 Geo Tricks - Qonn 18~sheet~e211cf3a-c20c-48fc-86ca-a24ff4c82129~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/e211cf3a-c20c-48fc-86ca-a24ff4c82129/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~Top 10 GeoAnalytics Tricks
+
+Top 10 Geo Tricks - Qonn 18~sheet~dc2225a4-db5e-4e1b-9118-d2fa96f4472d~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/dc2225a4-db5e-4e1b-9118-d2fa96f4472d/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#18 Multi Language support
+
+Top 10 Geo Tricks - Qonn 18~sheet~8ddc85a3-12dc-40e3-a09c-0f8c24c5ccdc~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/8ddc85a3-12dc-40e3-a09c-0f8c24c5ccdc/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#17 Buffer using Travelarea and closest
+
+Top 10 Geo Tricks - Qonn 18~sheet~e4c47272-7fae-4330-a1a5-06b78705a756~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/e4c47272-7fae-4330-a1a5-06b78705a756/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#14 Show unselected on map
+
+Top 10 Geo Tricks - Qonn 18~sheet~2bf94777-f51a-4294-987d-c5f1f9c1e45f~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/2bf94777-f51a-4294-987d-c5f1f9c1e45f/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#13 Reducing coordinates
+
+Top 10 Geo Tricks - Qonn 18~sheet~3904a8b7-2caa-49e9-bb75-920e964800b9~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/3904a8b7-2caa-49e9-bb75-920e964800b9/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#12 Custom map background color
+
+Top 10 Geo Tricks - Qonn 18~sheet~7b8ecd73-ea3c-44f5-a639-2517cedf0d50~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/7b8ecd73-ea3c-44f5-a639-2517cedf0d50/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#11 Drill downs
+
+Top 10 Geo Tricks - Qonn 18~sheet~b938537c-bccc-4cd9-81a9-aa6edbbb92b6~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/b938537c-bccc-4cd9-81a9-aa6edbbb92b6/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#10 Shared segments in routes
+
+Top 10 Geo Tricks - Qonn 18~sheet~2d423638-481b-456b-9335-8af2451ae4fb~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/2d423638-481b-456b-9335-8af2451ae4fb/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#9 Points to lines
+
+Top 10 Geo Tricks - Qonn 18~sheet~0a7cdd95-9fe6-4843-a358-4da86d022eba~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/0a7cdd95-9fe6-4843-a358-4da86d022eba/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#8 Dynamic SVG symbols
+
+Top 10 Geo Tricks - Qonn 18~sheet~b096f924-eda3-47a3-b9d2-2ca59b59c0f9~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/b096f924-eda3-47a3-b9d2-2ca59b59c0f9/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#7 Multi line labels
+
+Top 10 Geo Tricks - Qonn 18~sheet~09d0ecf3-b02d-408d-b8d0-18c209d395e1~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/09d0ecf3-b02d-408d-b8d0-18c209d395e1/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#6 Custom labels
+
+Top 10 Geo Tricks - Qonn 18~sheet~245eb3a1-9230-467f-b08c-3528efaed505~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/245eb3a1-9230-467f-b08c-3528efaed505/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#4 Area outline custom width
+
+Top 10 Geo Tricks - Qonn 18~sheet~9c79449d-1bb1-4c08-ba1c-8f705b7ddca2~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/9c79449d-1bb1-4c08-ba1c-8f705b7ddca2/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#3 Sense chart in popup
+
+Top 10 Geo Tricks - Qonn 18~sheet~d4975cb9-b470-49c0-972e-f1464f5987a9~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/d4975cb9-b470-49c0-972e-f1464f5987a9/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#2 Icon layer
+
+Top 10 Geo Tricks - Qonn 18~sheet~a913c0e6-8526-46fc-90b9-37ed8f9e63a2~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/a913c0e6-8526-46fc-90b9-37ed8f9e63a2/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#1 Custom popups
+
+Top 10 Geo Tricks - Qonn 18~sheet~7b700640-bbe3-4bb0-a794-56ad46e70488~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/7b700640-bbe3-4bb0-a794-56ad46e70488/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#5 Store icons in app
+
+Top 10 Geo Tricks - Qonn 18~sheet~b3949728-9423-4976-892f-f75193faf0d9~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/b3949728-9423-4976-892f-f75193faf0d9/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#15 Node graphs with map
+
+Top 10 Geo Tricks - Qonn 18~sheet~4dec8839-9e87-4257-a923-e58b6ce3e06e~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/fc5014e5-1035-4881-8b2a-bbf2ad17c03e/sheet/4dec8839-9e87-4257-a923-e58b6ce3e06e/~~fc5014e5-1035-4881-8b2a-bbf2ad17c03e~#16 Override conversion in the connector
+
+Top 10 Geo Tips QlikWorld 2020~sheet~09b78f1d-7042-49e3-8e4f-05487b670f64~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/09b78f1d-7042-49e3-8e4f-05487b670f64/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Link to app
+
+Top 10 Geo Tips QlikWorld 2020~sheet~9bd7788d-9630-460d-a7a0-dfa0bfa8027c~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/9bd7788d-9630-460d-a7a0-dfa0bfa8027c/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Arbitrary expressions for the chart layer
+
+Top 10 Geo Tips QlikWorld 2020~sheet~187f79d7-e815-4650-aee9-ded252bff864~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/187f79d7-e815-4650-aee9-ded252bff864/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Opacity background layer
+
+Top 10 Geo Tips QlikWorld 2020~sheet~f4cc05bf-0a57-4334-b2e3-43fe48f112b3~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/f4cc05bf-0a57-4334-b2e3-43fe48f112b3/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Image library
+
+Top 10 Geo Tips QlikWorld 2020~sheet~6bcb3b24-63a8-494a-b90d-99ac9ba16ab8~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/6bcb3b24-63a8-494a-b90d-99ac9ba16ab8/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~GeoJSON mix
+
+Top 10 Geo Tips QlikWorld 2020~sheet~98201791-d1f3-493b-bd31-4a786a2621a0~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/98201791-d1f3-493b-bd31-4a786a2621a0/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Basketball
+
+Top 10 Geo Tips QlikWorld 2020~sheet~481a113e-fe4b-46d9-b240-605ed7c8b78d~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/481a113e-fe4b-46d9-b240-605ed7c8b78d/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Highlighting
+
+Top 10 Geo Tips QlikWorld 2020~sheet~d8e1952b-6bc8-496d-b54d-acdb9eb37d1d~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/d8e1952b-6bc8-496d-b54d-acdb9eb37d1d/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Decimal degrees
+
+Top 10 Geo Tips QlikWorld 2020~sheet~4a3cb004-879e-40a6-9303-0b780804dc81~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/4a3cb004-879e-40a6-9303-0b780804dc81/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Tooltip table
+
+Top 10 Geo Tips QlikWorld 2020~sheet~cf9c18b8-7cae-4448-89d7-eb50ee298bc8~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/cf9c18b8-7cae-4448-89d7-eb50ee298bc8/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Map theme settings
+
+Top 10 Geo Tips QlikWorld 2020~sheet~64eabb1b-e654-4de9-8e61-0c04d3124757~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/64eabb1b-e654-4de9-8e61-0c04d3124757/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Find nearest airports
+
+Top 10 Geo Tips QlikWorld 2020~sheet~901a1a35-be57-4e75-9c79-83a690ca7616~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/901a1a35-be57-4e75-9c79-83a690ca7616/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Time zones
+
+Top 10 Geo Tips QlikWorld 2020~sheet~8c04ac5b-00d8-4e19-9e27-2d1b2d775129~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/8c04ac5b-00d8-4e19-9e27-2d1b2d775129/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~WMS parameters
+
+Top 10 Geo Tips QlikWorld 2020~sheet~d69c868f-293c-45f5-a11c-db823e55477a~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/d69c868f-293c-45f5-a11c-db823e55477a/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~WorldMap
+
+Top 10 Geo Tips QlikWorld 2020~sheet~1c05b83b-a6a9-4f5f-aeda-216de3d1f288~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/1c05b83b-a6a9-4f5f-aeda-216de3d1f288/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Speed up connector operations with csv
+
+Top 10 Geo Tips QlikWorld 2020~sheet~64c4ad9f-a0c8-47f7-baca-ecd927f7b4ef~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/64c4ad9f-a0c8-47f7-baca-ecd927f7b4ef/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Correcting location
+
+Top 10 Geo Tips QlikWorld 2020~sheet~a8b2f41e-1b3b-4518-9f8f-ac1e062d7507~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/a8b2f41e-1b3b-4518-9f8f-ac1e062d7507/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Drill down to floorplan
+
+Top 10 Geo Tips QlikWorld 2020~sheet~60a9c59a-bcc5-4289-80c3-65be7196b1c8~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/60a9c59a-bcc5-4289-80c3-65be7196b1c8/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~WMS to TMS
+
+Top 10 Geo Tips QlikWorld 2020~sheet~bc6ea016-05ad-4542-8682-073eda46cb03~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/bc6ea016-05ad-4542-8682-073eda46cb03/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Images from Sense server
+
+Top 10 Geo Tips QlikWorld 2020~sheet~cdff40c0-602e-47b4-8e47-d7678fddb126~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/cdff40c0-602e-47b4-8e47-d7678fddb126/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Overview map
+
+Top 10 Geo Tips QlikWorld 2020~sheet~b5db327d-eee4-4d4b-83a2-dd7c2d397e8d~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/b5db327d-eee4-4d4b-83a2-dd7c2d397e8d/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Some tips for Cluster
+
+Top 10 Geo Tips QlikWorld 2020~sheet~00c810d1-32f8-4a55-9cde-80c7899fbe6c~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/00c810d1-32f8-4a55-9cde-80c7899fbe6c/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~Line wrap
+
+Top 10 Geo Tips QlikWorld 2020~sheet~887796b0-d7fd-42f9-b11c-2eceb18ede86~https://k809mof5b4gzpy8.us.qlikcloud.com/sense/app/a28f8a65-e35f-489a-b7e7-c8579122e25d/sheet/887796b0-d7fd-42f9-b11c-2eceb18ede86/~~a28f8a65-e35f-489a-b7e7-c8579122e25d~MGRS
+] (delimiter is '~');
