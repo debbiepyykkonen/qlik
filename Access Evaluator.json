@@ -1,0 +1,161 @@
+
+SHEETS
+{"qInfo":{"qId":"d7056da8-4def-46b1-b7cc-773ae48cccd2","qType":"sheet"},"qMeta":{"title":"Access Evaluation (1)","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"d7056da8-4def-46b1-b7cc-773ae48cccd2","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T20:22:39.881Z","modifiedDate":"2023-09-07T20:28:17.079Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"fe4dec7c-8859-4cd2-bdc2-f4067554cc0c","qType":"sheet"},"qMeta":{"title":"User Roles","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"fe4dec7c-8859-4cd2-bdc2-f4067554cc0c","approved":false,"published":true,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.176Z","modifiedDate":"2023-09-07T16:51:09.176Z","publishTime":"2022-07-11T18:12:45.734Z","privileges":["read","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"6069713e-2231-42d3-a4f2-9869d25b0b86","qType":"sheet"},"qMeta":{"title":"About","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"6069713e-2231-42d3-a4f2-9869d25b0b86","approved":false,"published":true,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.182Z","modifiedDate":"2023-09-07T16:51:09.182Z","publishTime":"2022-07-11T18:11:51.909Z","privileges":["read","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"7fec9f05-1e45-40f3-88d5-9be8f0e9b8e3","qType":"sheet"},"qMeta":{"title":"User Permissions","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"7fec9f05-1e45-40f3-88d5-9be8f0e9b8e3","approved":false,"published":true,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.189Z","modifiedDate":"2023-09-07T16:51:09.189Z","publishTime":"2022-06-28T15:35:48.398Z","privileges":["read","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"39fc256a-0d7e-4ab6-a8de-a904c639e097","qType":"sheet"},"qMeta":{"title":"Access Evaluation","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"39fc256a-0d7e-4ab6-a8de-a904c639e097","approved":false,"published":true,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.197Z","modifiedDate":"2023-09-07T16:51:09.197Z","publishTime":"2022-06-28T15:35:03.893Z","privileges":["read","publish","change_owner"]},"qData":[]}
+
+OBJECTS ON SHEETS
+{"name":"28f06e6e-7be1-4d9e-a8ce-954cf927bc70","type":"qlik-multi-kpi","col":0,"row":11,"colspan":1,"rowspan":1,"bounds":{"y":91.66666666666666,"x":0,"width":4.166666666666666,"height":8.333333333333332}}
+{"name":"08580942-8c14-4a50-bfd6-dccf543aeeaa","type":"kpi","col":0,"row":1,"colspan":3,"rowspan":2,"bounds":{"y":8.333333333333332,"x":0,"width":12.5,"height":16.666666666666664}}
+{"name":"74ad8261-1f55-4673-8857-788cbfcac0dc","type":"container","col":3,"row":1,"colspan":21,"rowspan":11,"bounds":{"y":8.333333333333332,"x":12.5,"width":87.5,"height":91.66666666666666}}
+{"name":"3f538bff-87eb-4f05-a2d8-0e4510b66e8c","type":"kpi","col":0,"row":3,"colspan":3,"rowspan":2,"bounds":{"y":25,"x":0,"width":12.5,"height":16.666666666666664}}
+{"name":"71df7187-ee1a-4227-a514-1cc61405c40a","type":"kpi","col":0,"row":7,"colspan":3,"rowspan":2,"bounds":{"y":58.333333333333336,"x":0,"width":12.5,"height":16.666666666666664}}
+{"name":"7de454a9-75f4-4129-9db2-a94beb369fdf","type":"filterpane","col":0,"row":0,"colspan":24,"rowspan":1,"bounds":{"y":0,"x":0,"width":100,"height":8.333333333333332}}
+{"name":"fa7cd20c-9341-42a3-8f11-7e3996e9f582","type":"kpi","col":0,"row":5,"colspan":3,"rowspan":2,"bounds":{"y":41.66666666666667,"x":0,"width":12.5,"height":16.666666666666664}}
+{"name":"3378c990-e542-43a8-aff2-a0bc76a75380","type":"kpi","col":0,"row":9,"colspan":3,"rowspan":2,"bounds":{"y":75,"x":0,"width":12.5,"height":16.666666666666664}}
+{"name":"sPrJpk","type":"pivot-table","col":3,"row":1,"colspan":3,"rowspan":11,"bounds":{"y":8.333333333333332,"x":12.5,"width":12.5,"height":91.66666666666666}}
+{"name":"uQEcjgF","type":"pivot-table","col":6,"row":1,"colspan":9,"rowspan":11,"bounds":{"y":8.333333333333332,"x":25,"width":37.5,"height":91.66666666666666}}
+{"name":"jrtjp","type":"pivot-table","col":15,"row":1,"colspan":9,"rowspan":11,"bounds":{"y":8.333333333333332,"x":62.5,"width":37.5,"height":91.66666666666666}}
+{"name":"XtKxKgJ","type":"kpi","col":0,"row":1,"colspan":3,"rowspan":2,"bounds":{"y":8.333333333333332,"x":0,"width":12.5,"height":16.666666666666664}}
+{"name":"KtKZAK","type":"kpi","col":0,"row":5,"colspan":3,"rowspan":2,"bounds":{"y":41.66666666666667,"x":0,"width":12.5,"height":16.666666666666664}}
+{"name":"WLXATB","type":"kpi","col":0,"row":7,"colspan":3,"rowspan":2,"bounds":{"y":58.333333333333336,"x":0,"width":12.5,"height":16.666666666666664}}
+{"name":"jcsKVg","type":"kpi","col":0,"row":3,"colspan":3,"rowspan":2,"bounds":{"y":25,"x":0,"width":12.5,"height":16.666666666666664}}
+{"name":"ZxmcSDY","type":"qlik-multi-kpi","col":0,"row":11,"colspan":1,"rowspan":1,"bounds":{"y":91.66666666666666,"x":0,"width":4.166666666666666,"height":8.333333333333332}}
+{"name":"McDajC","type":"filterpane","col":0,"row":0,"colspan":24,"rowspan":1,"bounds":{"y":0,"x":0,"width":100,"height":8.333333333333332}}
+{"name":"aTEvT","type":"text-image","col":0,"row":0,"colspan":10,"rowspan":7,"bounds":{"y":0,"x":0,"width":41.66666666666667,"height":58.333333333333336}}
+{"name":"UTwJhX","type":"table","col":0,"row":7,"colspan":24,"rowspan":5,"bounds":{"y":58.333333333333336,"x":0,"width":100,"height":41.66666666666667}}
+{"name":"ZHJmTU","type":"text-image","col":10,"row":0,"colspan":14,"rowspan":7,"bounds":{"y":0,"x":41.66666666666667,"width":58.333333333333336,"height":58.333333333333336}}
+{"name":"83ddebc7-0dea-4245-af20-d126fb70d5f8","type":"pivot-table","col":3,"row":1,"colspan":21,"rowspan":11,"bounds":{"y":8.333333333333332,"x":12.5,"width":87.5,"height":91.66666666666666}}
+{"name":"01b26718-bbfd-47c5-882a-bff0aa4a7c6c","type":"qlik-multi-kpi","col":0,"row":11,"colspan":1,"rowspan":1,"bounds":{"y":91.66666666666666,"x":0,"width":4.166666666666666,"height":8.333333333333332}}
+{"name":"qTBspGP","type":"kpi","col":0,"row":5,"colspan":3,"rowspan":2,"bounds":{"y":41.66666666666667,"x":0,"width":12.5,"height":16.666666666666664}}
+{"name":"kzKBV","type":"kpi","col":0,"row":1,"colspan":3,"rowspan":2,"bounds":{"x":0,"y":8.333333333333332,"width":12.5,"height":16.666666666666664}}
+{"name":"DNmWfjp","type":"kpi","col":0,"row":3,"colspan":3,"rowspan":2,"bounds":{"x":0,"y":25,"width":12.5,"height":16.666666666666664}}
+{"name":"CSvZaa","type":"kpi","col":0,"row":7,"colspan":3,"rowspan":2,"bounds":{"y":58.333333333333336,"x":0,"width":12.5,"height":16.666666666666664}}
+{"name":"hwUNN","type":"filterpane","col":0,"row":0,"colspan":24,"rowspan":1,"bounds":{"y":0,"x":0,"width":100,"height":8.333333333333332}}
+{"name":"0f44a4bb-8699-40d6-89fa-e357495b68b7","type":"qlik-multi-kpi","col":0,"row":11,"colspan":1,"rowspan":1,"bounds":{"y":91.66666666666666,"x":0,"width":4.166666666666666,"height":8.333333333333332}}
+{"name":"0ceda671-5bb1-4fc6-bdac-8d9fb3155593","type":"kpi","col":0,"row":1,"colspan":3,"rowspan":2,"bounds":{"y":8.333333333333332,"x":0,"width":12.5,"height":16.666666666666664}}
+{"name":"jcdSPVH","type":"container","col":3,"row":1,"colspan":21,"rowspan":11,"bounds":{"y":8.333333333333332,"x":12.5,"width":87.5,"height":91.66666666666666}}
+{"name":"YTJUR","type":"kpi","col":0,"row":3,"colspan":3,"rowspan":2,"bounds":{"y":25,"x":0,"width":12.5,"height":16.666666666666664}}
+{"name":"hEXRpS","type":"kpi","col":0,"row":7,"colspan":3,"rowspan":2,"bounds":{"y":58.333333333333336,"x":0,"width":12.5,"height":16.666666666666664}}
+{"name":"PbnJuG","type":"filterpane","col":0,"row":0,"colspan":24,"rowspan":1,"bounds":{"y":0,"x":0,"width":100,"height":8.333333333333332}}
+{"name":"RqpjXR","type":"kpi","col":0,"row":5,"colspan":3,"rowspan":2,"bounds":{"y":41.66666666666667,"x":0,"width":12.5,"height":16.666666666666664}}
+{"name":"XSahhY","type":"kpi","col":0,"row":9,"colspan":3,"rowspan":2,"bounds":{"y":75,"x":0,"width":12.5,"height":16.666666666666664}}
+
+DIMENSIONS
+{"qInfo":{"qId":"rBYkxC","qType":"dimension"},"qMeta":{"title":"App ID","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"rBYkxC","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.204Z","modifiedDate":"2023-09-07T16:51:09.204Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"vGhjqp","qType":"dimension"},"qMeta":{"title":"Space Role Assignment Type Level","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"vGhjqp","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.204Z","modifiedDate":"2023-09-07T16:51:09.204Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"SmTJtWA","qType":"dimension"},"qMeta":{"title":"App Name","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"SmTJtWA","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.204Z","modifiedDate":"2023-09-07T16:51:09.204Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"usgD","qType":"dimension"},"qMeta":{"title":"User Role Permission Action","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"usgD","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.205Z","modifiedDate":"2023-09-07T16:51:09.205Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"PPjVkg","qType":"dimension"},"qMeta":{"title":"User Role Permission","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"PPjVkg","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.205Z","modifiedDate":"2023-09-07T16:51:09.205Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"gsjq","qType":"dimension"},"qMeta":{"title":"Space Assignment Role","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"gsjq","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.205Z","modifiedDate":"2023-09-07T16:51:09.205Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"ahbxN","qType":"dimension"},"qMeta":{"title":"Space Role Inherited From Group","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"ahbxN","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.206Z","modifiedDate":"2023-09-07T16:51:09.206Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"GawuAGd","qType":"dimension"},"qMeta":{"title":"Space Role Assignment Type","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"GawuAGd","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.206Z","modifiedDate":"2023-09-07T16:51:09.206Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"JsQNaem","qType":"dimension"},"qMeta":{"title":"Space Name","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"JsQNaem","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.206Z","modifiedDate":"2023-09-07T16:51:09.206Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"pHQjcC","qType":"dimension"},"qMeta":{"title":"Space Type","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"pHQjcC","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.206Z","modifiedDate":"2023-09-07T16:51:09.206Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"FPCxbBd","qType":"dimension"},"qMeta":{"title":"Role Inherited From Group","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"FPCxbBd","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.208Z","modifiedDate":"2023-09-07T16:51:09.208Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"sxGjy","qType":"dimension"},"qMeta":{"title":"User Name","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"sxGjy","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.208Z","modifiedDate":"2023-09-07T16:51:09.208Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"Jyxkb","qType":"dimension"},"qMeta":{"title":"Role Assignment Type","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"Jyxkb","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.208Z","modifiedDate":"2023-09-07T16:51:09.208Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"cJwR","qType":"dimension"},"qMeta":{"title":"Role Name","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"cJwR","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.208Z","modifiedDate":"2023-09-07T16:51:09.208Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"TeuGA","qType":"dimension"},"qMeta":{"title":"Space Type\/Name Drill","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"dimension","id":"TeuGA","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.214Z","modifiedDate":"2023-09-07T16:51:09.214Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+
+MEASURES
+{"qInfo":{"qId":"ChjLJm","qType":"measure"},"qMeta":{"title":"Groups w\/ Access","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"measure","id":"ChjLJm","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.198Z","modifiedDate":"2023-09-07T16:51:09.198Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"JFkbNm","qType":"measure"},"qMeta":{"title":"Users w\/ Access","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"measure","id":"JFkbNm","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.203Z","modifiedDate":"2023-09-07T16:51:09.203Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"ctfFS","qType":"measure"},"qMeta":{"title":"Shared Apps","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"measure","id":"ctfFS","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.203Z","modifiedDate":"2023-09-07T16:51:09.203Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"rCueyM","qType":"measure"},"qMeta":{"title":"Apps","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"measure","id":"rCueyM","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.203Z","modifiedDate":"2023-09-07T16:51:09.203Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"ddxgh","qType":"measure"},"qMeta":{"title":"Spaces","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"measure","id":"ddxgh","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.204Z","modifiedDate":"2023-09-07T16:51:09.204Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"mwJYzj","qType":"measure"},"qMeta":{"title":"Roles from Groups","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"measure","id":"mwJYzj","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.207Z","modifiedDate":"2023-09-07T16:51:09.207Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"XtpVpHd","qType":"measure"},"qMeta":{"title":"Used Roles","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"measure","id":"XtpVpHd","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.207Z","modifiedDate":"2023-09-07T16:51:09.207Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"xHgaBg","qType":"measure"},"qMeta":{"title":"Users with Roles","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"measure","id":"xHgaBg","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.207Z","modifiedDate":"2023-09-07T16:51:09.207Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"ALjHK","qType":"measure"},"qMeta":{"title":"Roles","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"measure","id":"ALjHK","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:09.207Z","modifiedDate":"2023-09-07T16:51:09.207Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+
+VARIABLES
+{"qName":"vNextURLRows","qDefinition":"0","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"8baa3582-9221-4608-9f74-835577fa3c4e","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"spaceID","qDefinition":"6512f12d7b70895b54e1ffc4","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"2657a0bb-44d7-4146-b6ae-06226d782a66","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vAppName","qDefinition":"Access Evaluator","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"4750ebdc-d811-436b-a413-ac40235d1898","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vu_qvd_storage_connection","qDefinition":":DataFiles","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"bef7c787-6cd7-42f1-8551-25504ef9af0e","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"i","qDefinition":"40","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"956283ad-08c9-478c-ae72-434beb490487","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vComp","qDefinition":"engine-xape-interactive-7b9cc66cb7-sk5lr","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"5978e199-8989-4336-81c5-e7617f1d7675","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vu_tenant_fqdn","qDefinition":"k809mof5b4gzpy8.us.qlikcloud.com","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"cbb2c01d-1026-491a-96cc-0bc7b66f2b47","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"spaceType","qDefinition":"Data","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"0d0e66fe-1eef-4584-8fcc-36f602f4ede2","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"sub_routine","qDefinition":"transform","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"59cd2672-f1d4-47e2-af58-b362ba747b5d","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"sub_duration","qDefinition":"0","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"4f914c8a-e04e-4f0a-a46f-9fa98c932a18","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vu_rest_connection","qDefinition":"Monitoring Apps - DEV:REST for Monitoring Apps","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"36697fad-a188-4c45-9c2a-2ecd55457913","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"sub_start","qDefinition":"45195.632465278","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"af6db40b-929d-4a81-9d7e-e54a3351041e","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vAPICallCounter","qDefinition":"88","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"62019bba-4db6-4bf6-bad1-7eb3c111f0c4","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vStartMsg","qDefinition":"Reloading Access Evaluator 1.0.0 from engine-xape-interactive-7b9cc66cb7-sk5lr running QIX Engine version 12.1845.0","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"ff8ed973-bb21-49eb-be78-75caa23d5035","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vEngineVer","qDefinition":"12.1845.0","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"bd998848-cfaf-42a4-a7f0-3df79196c303","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vSpaceID","qDefinition":"6512f12d7b70895b54e1ffc4","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"0f15f7b0-3c52-4b97-a24b-0811392a3f97","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vMax_KeySpaceRoleAssignment","qDefinition":"49","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"6495564c-69f8-4e9b-9bac-743e4615d394","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vReloadStart","qDefinition":"9\/26\/2023 3:10:08 PM","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"1d973e73-461f-4017-aad9-05cbeaf6b0ff","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vAppVersion","qDefinition":"1.0.0","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"49d1337e-888a-453f-812a-a714dbbb7b35","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"sub_finish","qDefinition":"45195.632465278","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"4df5997a-eb4f-4695-98f3-4b85b1b3f218","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vNextURL","qDefinition":"&next=","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"ce952b23-a0c0-4c3e-9b46-eb9e325fa7d8","qType":"variable"},"qData":[]}
+{"qName":"vSpaceTypeSelect","qDefinition":"Managed","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"366d992c-5907-45ec-b8a8-1210d0618c2d","qType":"variable"},"qData":[]}
+
+FIELDS
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Field","qCardinal":57,"qTags":["$hidden","$system","$ascii","$text","$key"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Table","qCardinal":11,"qTags":["$hidden","$system","$ascii","$text","$key"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Rows","qCardinal":10,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Fields","qCardinal":7,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$FieldNo","qCardinal":16,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Info","qCardinal":1,"qTags":["$hidden","$system","$ascii","$text"],"qSrcTables":[]}
+{"qName":"UserRolePermissionProperty","qCardinal":155,"qTags":["$ascii","$text"],"qSrcTables":["RolePermissions"]}
+{"qName":"UserRolePermissionAction","qCardinal":40,"qTags":["$ascii","$text"],"qSrcTables":["RolePermissions"]}
+{"qName":"UserRolePermissionCheck","qCardinal":1,"qTags":["$text"],"qSrcTables":["RolePermissions"]}
+{"qIsHidden":true,"qName":"_UserRolePermissionKey","qCardinal":12,"qTags":["$hidden","$key","$numeric","$integer"],"qSrcTables":[]}
+{"qName":"UserRoleID","qCardinal":12,"qTags":["$ascii","$text","$key"],"qSrcTables":["Roles","UserRoles"]}
+{"qName":"UserRoleName","qCardinal":12,"qTags":["$ascii","$text"],"qSrcTables":["Roles"]}
+{"qName":"UserRoleDescription","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Roles"]}
+{"qName":"UserRoleType","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Roles"]}
+{"qName":"UserRoleLevel","qCardinal":2,"qTags":["$ascii","$text"],"qSrcTables":["Roles"]}
+{"qName":"GroupID","qCardinal":47,"qTags":["$ascii","$text","$key"],"qSrcTables":["UserGroups","Groups"]}
+{"qName":"UserID","qCardinal":3,"qTags":["$ascii","$text","$key"],"qSrcTables":["Users","SpaceAssignments"]}
+{"qName":"UserStatus","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Users"]}
+{"qName":"UserName","qCardinal":3,"qTags":["$ascii","$text"],"qSrcTables":["Users"]}
+{"qName":"UserNameUnique","qCardinal":3,"qTags":["$numeric","$integer"],"qSrcTables":["Users"]}
+{"qName":"UserSubject","qCardinal":3,"qTags":["$ascii","$text"],"qSrcTables":["Users"]}
+{"qName":"UserEmail","qCardinal":2,"qTags":["$ascii","$text"],"qSrcTables":["Users"]}
+{"qIsHidden":true,"qName":"_UserKey","qCardinal":3,"qTags":["$hidden","$key","$numeric","$integer"],"qSrcTables":[]}
+{"qName":"UserRoleAssignmentType","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["UserRoles"]}
+{"qName":"UserRoleCheck","qCardinal":1,"qTags":["$text"],"qSrcTables":["UserRoles"]}
+{"qName":"UserRoleInheritedFromGroup","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["UserRoles"]}
+{"qName":"UserRoleInheritedFromGroupID","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["UserRoles"]}
+{"qName":"GroupCreatedAt","qCardinal":46,"qTags":["$numeric","$timestamp"],"qSrcTables":["Groups"]}
+{"qName":"GroupName","qCardinal":46,"qTags":["$ascii","$text"],"qSrcTables":["Groups"]}
+{"qName":"GroupStatus","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Groups"]}
+{"qName":"SpaceID","qCardinal":40,"qTags":["$ascii","$text","$key"],"qSrcTables":["Spaces","AppSharesLink"]}
+{"qName":"SpaceType","qCardinal":2,"qTags":["$ascii","$text"],"qSrcTables":["Spaces"]}
+{"qName":"SpaceOwnerID","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Spaces"]}
+{"qName":"SpaceName","qCardinal":40,"qTags":["$ascii","$text"],"qSrcTables":["Spaces"]}
+{"qName":"SpaceNameUnique","qCardinal":40,"qTags":["$numeric","$integer"],"qSrcTables":["Spaces"]}
+{"qName":"SpaceNameText","qCardinal":40,"qTags":["$ascii","$text"],"qSrcTables":["Spaces"]}
+{"qName":"SpaceDescription","qCardinal":5,"qTags":["$ascii","$text"],"qSrcTables":["Spaces"]}
+{"qName":"SpaceCreatedTime","qCardinal":40,"qTags":["$numeric","$timestamp"],"qSrcTables":["Spaces"]}
+{"qName":"SpaceCreatedBy","qCardinal":2,"qTags":["$ascii","$text"],"qSrcTables":["Spaces"]}
+{"qIsHidden":true,"qName":"_SpaceAppKey","qCardinal":41,"qTags":["$hidden","$key","$numeric","$integer"],"qSrcTables":[]}
+{"qName":"AppID","qCardinal":11,"qTags":["$ascii","$text","$key"],"qSrcTables":["AppSharesLink","Apps"]}
+{"qName":"AppName","qCardinal":11,"qTags":["$numeric","$integer"],"qSrcTables":["Apps"]}
+{"qName":"AppCreatedTime","qCardinal":9,"qTags":["$numeric","$timestamp"],"qSrcTables":["Apps"]}
+{"qName":"AppUpdatedTime","qCardinal":10,"qTags":["$numeric","$timestamp"],"qSrcTables":["Apps"]}
+{"qName":"AppCreatorID","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Apps"]}
+{"qName":"AppUpdaterID","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Apps"]}
+{"qName":"AppIsFavorited","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Apps"]}
+{"qName":"AppOwnerID","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Apps"]}
+{"qName":"AppDescription","qCardinal":0,"qTags":[],"qSrcTables":["Apps"]}
+{"qName":"AppHasSectionAccess","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Apps"]}
+{"qName":"AppLastReloadTime","qCardinal":11,"qTags":["$numeric","$timestamp"],"qSrcTables":["Apps"]}
+{"qName":"AppOriginalID","qCardinal":6,"qTags":["$ascii","$text"],"qSrcTables":["Apps"]}
+{"qName":"AppOwnerName","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Apps"]}
+{"qName":"AppPublished","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Apps"]}
+{"qName":"AppPublishedTime","qCardinal":5,"qTags":["$numeric","$timestamp"],"qSrcTables":["Apps"]}
+{"qName":"AppEncrypted","qCardinal":0,"qTags":[],"qSrcTables":["Apps"]}
+{"qName":"SpaceAssignmentRoleSpaceType","qCardinal":2,"qTags":["$ascii","$text"],"qSrcTables":["SpaceAssignments"]}
+{"qName":"SpaceRoleAssignmentTypeLevel","qCardinal":2,"qTags":["$ascii","$text"],"qSrcTables":["SpaceAssignments"]}
+{"qIsHidden":true,"qName":"_KeySpaceRoleAssignment","qCardinal":89,"qTags":["$hidden","$key","$numeric","$integer"],"qSrcTables":[]}
+{"qName":"SpaceAssignmentRole","qCardinal":9,"qTags":["$ascii","$text"],"qSrcTables":["SpaceAssignmentRoles"]}
+{"qName":"SpaceRoleInheritedFromGroup","qCardinal":44,"qTags":["$ascii","$text"],"qSrcTables":["SpaceAssignments"]}
+{"qName":"SpaceRoleAssignmentType","qCardinal":2,"qTags":["$ascii","$text"],"qSrcTables":["SpaceAssignments"]}
+{"qName":"SpaceAssignmentRoleCheck","qCardinal":1,"qTags":["$text"],"qSrcTables":["SpaceAssignmentRoles"]}
