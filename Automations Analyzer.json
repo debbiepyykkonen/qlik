@@ -1,0 +1,97 @@
+
+SHEETS
+{"qInfo":{"qId":"d9c6f376-aa5c-4374-bcaf-885f608d4c81","qType":"sheet"},"qMeta":{"title":"Total hourly distribution","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"d9c6f376-aa5c-4374-bcaf-885f608d4c81","approved":false,"published":true,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:08.211Z","modifiedDate":"2023-09-07T16:59:21.321Z","publishTime":"2023-09-07T16:59:21.321Z","privileges":["read","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"bd677f24-c988-4d48-9195-7020909ca000","qType":"sheet"},"qMeta":{"title":"Automation run history last 30 days and weekly respectively","description":"One barchart that tells the number of automation runs the last 30 days. \nOne barchart that tells the number of automation runs the last 12 month.","_resourcetype":"app.object","_objecttype":"sheet","id":"bd677f24-c988-4d48-9195-7020909ca000","approved":false,"published":true,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:08.226Z","modifiedDate":"2023-09-07T16:59:18.781Z","publishTime":"2023-09-07T16:59:18.781Z","privileges":["read","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"8d421fec-eb56-4608-806a-98fa48278cd6","qType":"sheet"},"qMeta":{"title":"Failed vs successful automation runs","description":"Failed vs completed automation runs over time. \nKPI: Total number of succesful runs.\nKPI: Total number of failed runs.\nWriteback by mail:\nWriteback by slack:\nRX bytes\nTX bytes\nError details\nAdd date filter.","_resourcetype":"app.object","_objecttype":"sheet","id":"8d421fec-eb56-4608-806a-98fa48278cd6","approved":false,"published":true,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:08.218Z","modifiedDate":"2023-09-07T16:59:15.974Z","publishTime":"2023-09-07T16:59:15.974Z","privileges":["read","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"4ae0d78e-4e10-4b07-8f91-6460a2ff7697","qType":"sheet"},"qMeta":{"title":"Automations","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"4ae0d78e-4e10-4b07-8f91-6460a2ff7697","approved":false,"published":true,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:08.229Z","modifiedDate":"2023-09-07T16:59:12.725Z","publishTime":"2023-09-07T16:59:12.725Z","privileges":["read","publish","change_owner"]},"qData":[]}
+
+OBJECTS ON SHEETS
+{"name":"cXxMGm","type":"barchart","col":0,"row":6,"colspan":24,"rowspan":6,"bounds":{"y":50,"x":0,"width":100,"height":50}}
+{"name":"LjYwS","type":"barchart","col":0,"row":0,"colspan":24,"rowspan":6,"bounds":{"y":0,"x":0,"width":100,"height":50}}
+{"name":"DEePCN","type":"barchart","col":0,"row":0,"colspan":24,"rowspan":7,"bounds":{"y":0,"x":0,"width":100,"height":58.333333333333336}}
+{"name":"EjqzVsD","type":"barchart","col":0,"row":7,"colspan":24,"rowspan":5,"bounds":{"y":58.333333333333336,"x":0,"width":100,"height":41.66666666666667}}
+{"name":"xCXJnrq","type":"kpi","col":0,"row":0,"colspan":10,"rowspan":2,"bounds":{"y":0,"x":0,"width":33.33333333333333,"height":13.333333333333334}}
+{"name":"pXSsSXd","type":"kpi","col":10,"row":0,"colspan":10,"rowspan":2,"bounds":{"y":0,"x":33.33333333333333,"width":33.33333333333333,"height":13.333333333333334}}
+{"name":"Cw","type":"barchart","col":15,"row":2,"colspan":15,"rowspan":7,"bounds":{"y":13.333333333333334,"x":50,"width":50,"height":46.666666666666664}}
+{"name":"KnBmfvY","type":"barchart","col":0,"row":2,"colspan":15,"rowspan":7,"bounds":{"y":13.333333333333334,"x":0,"width":50,"height":46.666666666666664}}
+{"name":"BxSf","type":"kpi","col":20,"row":0,"colspan":10,"rowspan":2,"bounds":{"y":0,"x":66.66666666666666,"width":33.33333333333333,"height":13.333333333333334}}
+{"name":"bDe","type":"barchart","col":0,"row":9,"colspan":30,"rowspan":6,"bounds":{"y":60,"x":0,"width":100,"height":40}}
+{"name":"LGjWzsP","type":"kpi","col":6,"row":1,"colspan":9,"rowspan":2,"bounds":{"y":6.666666666666667,"x":20,"width":30,"height":13.333333333333334}}
+{"name":"bvDDf","type":"filterpane","col":0,"row":0,"colspan":5,"rowspan":15,"bounds":{"y":0,"x":0,"width":16.666666666666664,"height":100}}
+{"name":"eAES","type":"filterpane","col":6,"row":0,"colspan":15,"rowspan":1,"bounds":{"y":0,"x":20,"width":50,"height":6.666666666666667}}
+{"name":"eRDpJ","type":"kpi","col":15,"row":1,"colspan":7,"rowspan":2,"bounds":{"y":6.666666666666667,"x":50,"width":23.333333333333332,"height":13.333333333333334}}
+{"name":"pNHvj","type":"text-image","col":21,"row":0,"colspan":9,"rowspan":1,"bounds":{"y":0,"x":70,"width":30,"height":6.666666666666667}}
+{"name":"pkhzm","type":"container","col":5,"row":8,"colspan":25,"rowspan":7,"bounds":{"y":53.333333333333336,"x":16.666666666666664,"width":83.33333333333334,"height":46.666666666666664}}
+{"name":"rjZpwg","type":"kpi","col":24,"row":5,"colspan":6,"rowspan":2,"bounds":{"y":33.33333333333333,"x":80,"width":20,"height":13.333333333333334}}
+{"name":"tAFmX","type":"barchart","col":5,"row":3,"colspan":19,"rowspan":5,"bounds":{"y":20,"x":16.666666666666664,"width":63.33333333333333,"height":33.33333333333333}}
+{"name":"ACPQuR","type":"kpi","col":22,"row":1,"colspan":8,"rowspan":2,"bounds":{"y":6.666666666666667,"x":73.33333333333333,"width":26.666666666666668,"height":13.333333333333334}}
+{"name":"cZXhk","type":"kpi","col":24,"row":3,"colspan":6,"rowspan":2,"bounds":{"y":20,"x":80,"width":20,"height":13.333333333333334}}
+
+DIMENSIONS
+
+MEASURES
+{"qInfo":{"qId":"fHLjNz","qType":"measure"},"qMeta":{"title":"Total runs","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"measure","id":"fHLjNz","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:08.236Z","modifiedDate":"2023-09-07T16:51:08.236Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+{"qInfo":{"qId":"utYmp","qType":"measure"},"qMeta":{"title":"automation_runtime","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"measure","id":"utYmp","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-09-07T16:51:08.247Z","modifiedDate":"2023-09-07T16:51:08.247Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+
+VARIABLES
+{"qName":"vu_rest_connection","qDefinition":"Monitoring Apps - DEV:REST for Monitoring Apps","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"61c7ee37-6e31-4e63-8a90-215d4621080d","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"app_reload_metadata_qvd","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"f6544252-139c-429f-8c66-8ea9df156c0b","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vIncremental","qDefinition":"1","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"edca9537-18d6-443c-a43d-2d9e119e0dbd","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"incremental_qvds_available","qDefinition":"0","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"11ec7490-1696-4bae-ab6b-d143c2da65af","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"incremental_message","qDefinition":"No Incremental QVDs found.","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"0b6ee8a4-6aeb-48e8-9190-e1b3f6bb360e","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vReloadTimeDiffFromGMT","qDefinition":"0","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"8cbf425f-9256-4172-b626-b9f46ddf2793","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vDataLastReloaded","qDefinition":"9\/7\/2023 7:41:05 PM","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"b4a4a108-81a0-4d3e-a7fd-b19a983d367e","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vLast30Days","qDefinition":"45146.820185185","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"68071c93-b6fb-40d1-bec6-408081f7cede","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vLastReloadTime","qDefinition":"9\/1\/2023 5:52:14 PM","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"0d3d670f-8f58-492e-a1cf-0eecc6ea277f","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vLast90Days","qDefinition":"45086.820185185","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"ac7f7fb7-40ad-446a-bbe5-b163718ccf3a","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vParams","qDefinition":"limit=10000000","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"9eaf8ebc-71b2-4f1a-ac5c-0b10c924b8c9","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vAutomationId","qDefinition":"3f623f30-4db2-11ee-ac35-71ff39b9d777","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"f9522e93-0f93-4855-b84e-dc96893cb5f5","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vu_tenant_fqdn","qDefinition":"k809mof5b4gzpy8.us.qlikcloud.com","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"0a8d7934-fb6e-4fd4-b790-152848fd5e3a","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vu_qvd_storage_connection","qDefinition":"lib:\/\/DataFiles","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"470bb2f1-3d7b-441b-91aa-116d60b86ea8","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vLast24Hours","qDefinition":"45175.820185185","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"6a5b0012-a6ef-455c-9cfd-3a6815179ec7","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vLast72Hours","qDefinition":"45173.820185185","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"2744af23-97a7-420e-8c79-001905d0aa49","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vLast7Days","qDefinition":"45169.820185185","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"b308237f-b261-4c64-a94b-6aa06017eee0","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"vLast60Days","qDefinition":"45116.820185185","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"1246c0a5-610f-4e35-9f17-d9c4828a929b","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"max_number_of_automations_per_month","qDescription":"Defines the max number of automation runs according to the plan: QSE (included): 5000; Startup: 20 000; Scale up: 60 000; Premiere 200 000; Premiere expansion 400 000.","qDefinition":"5000","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"fe43c0f6-9cb3-4281-b83e-fd86c594dd5b","qType":"variable"},"qData":[]}
+{"qName":"vtestFiletime","qDefinition":"22","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"33283b08-5045-42e1-97e5-c3a3991725c1","qType":"variable"},"qData":[]}
+{"qName":"vAutomationName","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"c5edf96f-0cf4-4765-9827-19a6031c3b2d","qType":"variable"},"qData":[]}
+{"qName":"vMax_updatedAt","qDefinition":"2022-12-21T13:27:28Z","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"07047943-31d5-452f-8a2b-ca30398b59b2","qType":"variable"},"qData":[]}
+{"qName":"vMax_startTime","qDefinition":"2000-01-01 00:00:00:00Z","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"86ee71a0-d973-44ed-a2dc-36ce27e7772b","qType":"variable"},"qData":[]}
+{"qName":"vMonth","qDescription":"Current month","qDefinition":"=Month(today())","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"d858638c-3dec-4510-baf4-cbd75736ca8a","qType":"variable"},"qData":[]}
+{"qName":"rolling_qvds_available","qDefinition":"1","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"c21db266-175c-4eae-8651-332414bf5e25","qType":"variable"},"qData":[]}
+
+FIELDS
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Field","qCardinal":28,"qTags":["$hidden","$system","$ascii","$text","$key"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Table","qCardinal":2,"qTags":["$hidden","$system","$ascii","$text","$key"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Rows","qCardinal":1,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Fields","qCardinal":2,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$FieldNo","qCardinal":18,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Info","qCardinal":1,"qTags":["$hidden","$system","$ascii","$text"],"qSrcTables":[]}
+{"qName":"ownerId","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Automation"]}
+{"qName":"name","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Automation"]}
+{"qName":"state","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Automation"]}
+{"qName":"description","qCardinal":0,"qTags":[],"qSrcTables":["Automation"]}
+{"qName":"lastRunStatus","qCardinal":0,"qTags":[],"qSrcTables":["Automation"]}
+{"qName":"runMode","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["Automation"]}
+{"qName":"createdAt","qCardinal":1,"qTags":["$numeric","$timestamp"],"qSrcTables":["Automation"]}
+{"qName":"updatedAt","qCardinal":1,"qTags":["$numeric","$timestamp"],"qSrcTables":["Automation"]}
+{"qName":"lastRunAt","qCardinal":0,"qTags":[],"qSrcTables":["Automation"]}
+{"qName":"AutomationId","qCardinal":1,"qTags":["$ascii","$text","$key"],"qSrcTables":["Automation","AutomationRuns"]}
+{"qName":"updatedAtRAW","qCardinal":1,"qTags":["$numeric","$timestamp"],"qSrcTables":["Automation"]}
+{"qName":"context","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["AutomationRuns"]}
+{"qName":"status","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["AutomationRuns"]}
+{"qName":"title","qCardinal":0,"qTags":[],"qSrcTables":["AutomationRuns"]}
+{"qName":"isTestRun","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["AutomationRuns"]}
+{"qName":"isArchived","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["AutomationRuns"]}
+{"qName":"error","qCardinal":0,"qTags":[],"qSrcTables":["AutomationRuns"]}
+{"qName":"RunId","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["AutomationRuns"]}
+{"qName":"run_updatedAtRAW","qCardinal":1,"qTags":["$numeric","$timestamp"],"qSrcTables":["AutomationRuns"]}
+{"qName":"run_createdAtRAW","qCardinal":1,"qTags":["$numeric","$timestamp"],"qSrcTables":["AutomationRuns"]}
+{"qName":"run_startTimeRAW","qCardinal":1,"qTags":["$numeric","$timestamp"],"qSrcTables":["AutomationRuns"]}
+{"qName":"run_startTime","qCardinal":1,"qTags":["$numeric","$timestamp"],"qSrcTables":["AutomationRuns"]}
+{"qName":"run_stopTime","qCardinal":0,"qTags":[],"qSrcTables":["AutomationRuns"]}
+{"qName":"isLastMonth","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["AutomationRuns"]}
+{"qName":"isLastWeek","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["AutomationRuns"]}
+{"qName":"run_scheduledStartTime","qCardinal":0,"qTags":[],"qSrcTables":["AutomationRuns"]}
+{"qName":"run_createdAt","qCardinal":1,"qTags":["$numeric","$timestamp"],"qSrcTables":["AutomationRuns"]}
+{"qName":"run_updatedAt","qCardinal":1,"qTags":["$numeric","$timestamp"],"qSrcTables":["AutomationRuns"]}
