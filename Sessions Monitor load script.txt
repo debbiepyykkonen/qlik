@@ -1,0 +1,931 @@
+///$tab Initialize
+//	Sessions Monitor 
+LET yr			= year(ReloadTime());
+SET copyright = 'Copyright 1993-$(yr) Qliktech International AB';
+
+Let ReloadStartTime 		= now(1);
+Set ahora = ; SET msg =; SET skipped=0; SET loaded =0; SET textFile =;	// Reset these variables
+SET app_name				= 'Sessions Monitor';
+SET app_version				= '7.17.0';
+Let comp 					= ComputerName(); 
+LET EngineVer = PurgeChar(EngineVersion(),chr(39)); 
+LET startMsg				= 'Reloading $(app_name) $(app_version) from $(comp) running QIX Engine version $(EngineVer)';
+TRACE $(startMsg);
+
+// Script Variables
+SET monthsOfHistory 		= 12;		// How many months of history should be available in the app. More history = more processing, bigger app, etc.
+LET cutoffDate 				= AddMonths(today(1),-$(monthsOfHistory),1);		// Filter individual .log files and baseTable; note: the 1 
+Let LastReloadTime 			= timestamp(alt(LastSuccessfulReloadStartTime,cutoffDate));
+Let lastReloadCompare 		= num(LastReloadTime)-1;	// (Re-)load any logs updated within 24 hours of the last reload
+
+LET serverLogFolder			= 'lib://ServerLogFolder/';	
+LET archivedLogsFolder		= 'lib://ArchivedLogsFolder/';
+
+LET baseFileName	 		= 'sessionsMonitorLogContent_$(app_version)';							// Session Monitor Change
+LET baseTableName 			= '$(serverLogFolder)$(baseFileName)';
+LET serviceFileName	 		= 'governanceServiceLog_$(app_version)';
+LET serviceTableName 		= '$(serverLogFolder)$(serviceFileName)';
+LET monitorAppStatsFile		= '$(serverLogFolder)Sessions_Monitor_Reload_Stats_$(app_version).txt';	// Session Monitor Change
+
+SET hideprefix 				= 'log';	// Hiding logList from view, though preserving it for now (not dropping it)
+SET firstReload 			= 0;		// RESET this each time and let script verify if it is the first reload.
+
+// Set date and time formats
+SET ThousandSep		=',';
+SET DecimalSep		='.';
+SET TimeFormat		= 'hh:mm:ss';
+SET DateFormat		= 'YYYY-MM-DD';
+SET TimestampFormat	= 'YYYY-MM-DD hh:mm:ss';
+
+// Calendar Variables
+Let vLast4Hours =	Num(timestamp(Now(1)-1/6));		///  4 hours = 1 day / 24 hours (per day) * 4 hours = 1/6 Days
+Let vLast24Hours =	Num(timestamp(Now(1)-1));
+Let vLast72Hours =	Num(timestamp(Now(1)-3));
+Let vLast7Days	 =	Num(timestamp(Now(1)-7));
+
+// Other Variables & Settings
+  ////// Color
+set c_red			= 'RGB(204,102,119)';
+set c_yellow		= 'RGB(221,204,119)';
+set c_blue			= 'RGB(68,119,170)';
+set c_green			= 'RGB(17,119,51)';
+set c_gray 			= 'RGB(150,150,150)';
+set c_lightred 		= 'RGB(240,209,214)';
+set c_lightblue 	= 'RGB(188,181,201)'; 
+///$tab log_list
+SUB log_list
+
+	logList:
+    LOAD * INLINE [
+    	logService, logArea, logType, logStart, logAddlFields
+
+        Engine, Trace, Session, "Session Start", fieldsEngineSession
+
+     ];
+
+ENDSUB
+
+///$tab define_fields
+SUB define_fields
+
+  LET fieldsEngineSession		=	'	ProxySessionId&ProxyPackageId as _proxySessionPackage,
+   										lower(Hostname & ActiveUserDirectory & ActiveUserId & [App Title])& Floor(ConvertToLocalTime(Timestamp)) as sessionAppKey,
+  										If(ProxySessionId=0,0,1) as [Session Count],
+										AppId as ObjectId,
+                                        [App Title] as [App Name],
+                                        ActiveUserDirectory as UserDirectory,
+                                        ActiveUserDirectory & chr(92) & ActiveUserId as UserId,
+                                        If(ProxySessionId=0,null(),([Session Duration])) as _sessionDuration,
+                                        If(ProxySessionId=0,([Session Duration])) as [Data Prep Load Duration],
+                                        round([CPU Spent (s)]*1000,0.01) as [Session CPU Spent (ms)],
+                                        ceil(("Bytes Received"+"Bytes Sent")/1024) as [Session KBytes Sent+Received],
+                                        If(ProxySessionId<>0,Selections) as [Session Selections],
+                                        lower(Hostname) as Hostname
+  										' ;
+    // Notes on these fields
+    //	Session Count = just count where user directory <> Internal, which is for sa_repository (something) and sa_scheduler (reloads)
+    //	_proxySessionPackage	= Unique identifier for each session, except where UserDirectory = Internal and for Data Prep services*
+    //	Session Duration given in fractions one day (24 hrs = 1,440 minutes). Round to about 1-2 seconds with 0.00002
+    //	* Data Prep service: When a user adds data to an app in Hub using "Add Data" (and "Prepare Data"), a SessionApp log entry
+    //		is generated with ProxySessionId=0 and AppId as 'SessionApp_GUID' - a temp Id not related to the actual AppId
+    //		These log entries contain information on CPU Spent and KBytes sent+received, but do not constitute a "Session"
+    //		With no way to link the Data Prep "SessionApp" session to the actual user session, we only report the CPU and KBytes
+    //		by User and App (and time), with no Selections 
+ 
+
+ENDSUB
+///$tab load_base_table
+SUB load_base_table (nombre, archivo)
+
+  TRACE Checking for base qvd;
+
+	// Check to see if governanceLogContent qvd exists
+	Let baseFileSize = FileSize('$(archivo).qvd');
+
+    IF  baseFileSize > 0 THEN 	    // Yes - QVD exists = not first load
+
+		trace Incremental reload (not first reload);
+    	Let firstReload = 0;
+        
+        $(nombre):
+        NoConcatenate
+    	Load * FROM [$(archivo).qvd] (qvd)
+        WHERE LogTimeStamp >= '$(cutoffDate)'
+        ;
+        
+        LET tempErrorDetails = ScriptErrorDetails;
+        IF tempErrorDetails>0 THEN
+          CALL monitor_app_reload_stats('WARN','$(archivo)', tempErrorDetails, 'Status Message')
+        END IF
+        
+    ELSE		// No - no QVD exists = First (initial) load
+        
+      TRACE Initial Load;
+      LET firstReload = 1;
+      LET lastReloadCompare		= num(cutoffDate);	// If First reload, do not filter logs by LastReload
+      LET LastReloadTime 		= timestamp(cutoffDate);
+
+      IF nombre = 'LogContent' THEN	// Primary log files (Audit Activity and Security
+        $(nombre):
+        NoConcatenate
+        Load * Inline [Id,LogEntryPeriodStart, LogTimeStamp,Hostname,App Name, ObjectId];
+
+      ELSE	// For future separate tables...
+        $(nombre):
+        NoConcatenate
+        Load * Inline [Id];
+
+      END IF
+        
+    END IF
+    
+    LET NoOfRows$(nombre)BASE = NoOfRows('$(nombre)');
+    
+ENDSUB
+///$tab multi_node_config
+SUB multi_node_config		
+
+  TRACE Checking the configuration - multi-node or single-node;
+
+// Check for multi-node environment by verifying files in Repository\ArchivedLogs folder
+	
+    FOR each folder in DirList(archivedLogsFolder & '*')
+      node_list:
+      Load
+        '$(folder)'&'\' as folder,
+        mid('$(folder)',26) as [Node Name],
+        FileTime( '$(folder)' ) as folder_Time
+      AutoGenerate 1;
+      
+	NEXT folder
+    
+    LET count_of_nodes	= NoOfRows('node_list');
+    
+    IF count_of_nodes > 1 then
+    	LET multiNode = 'Multi-Node';
+        TRACE Multi-Node environment detected;
+    ELSE
+        LET multiNode = 'Single-Node';
+        TRACE Single-Node environment detected;
+        let count_of_nodes = If(isnull(count_of_nodes),0,1);
+    ENDIF
+
+EndSub
+///$tab log_folder_list
+SUB log_folder_list
+        
+  // Create a list of folders to search for log files, including all folders in the ..\Sense\Repository\ArchivedLogs folder
+  // For Multi-node configuration, please refer to the instructions below
+  FOR each node in 'ServerLogFolder'
+  
+      LET svr = 'lib://$(node)/';  
+      
+      logFolderList:
+      LOAD
+        '$(svr)' as mainLogFolder,
+          'txt' as file_extension
+      AutoGenerate(1);
+      
+  NEXT node    
+
+  FOR each fldr in DirList('$(archivedLogsFolder)'&'*')
+      Concatenate (logFolderList)
+      Load
+          '$(fldr)/' as mainLogFolder,
+          'log' as file_extension
+      AutoGenerate(1);        
+  
+  NEXT fldr
+  
+  /* =========== Instructions for Multi-node configuration	==================================================================================\\
+  
+	1.	Add new data connection for each rim node. If you have 5 RIM nodes, you will need to create 5 data connections. 
+		For example, data connection for RIM1 points to folder \\rim_node_1\c$\programdata\qlik\sense\log and is called RIM1
+
+	2.	Rename new data connections in QMC to remove the (username) which is appended to the data connection name --- Example RIM1 (user_183)
+
+	3.	Update load script in section SUBT logFolderList on line 5 by adding the names of all new data connections created in step 1 and 2. 
+    	Each new data connection name should be enclosed in single quotes ' and separated by a comman. For example:
+        	FOR each node in 'ServerLogFolder','RIM1','RIM2'
+
+	4.	Perform Step 3 in the other Monitor App
+    
+  /* ===========================================================================================================================================*/  
+
+ENDSUB
+///$tab file_load
+SUB file_load (fdr,iter)
+  // Use the iteration number (on Run Logic section) to load all log files listed in the logList SUB
+  Let carpeta			= peek('mainLogFolder',$(fdr),'logFolderList');
+  Let extension			= peek('file_extension',$(fdr),'logFolderList');
+  Let logService 		= peek('logService',$(iter),'logList');
+  Let logArea	 		= peek('logArea',$(iter),'logList');
+  Let logType	 		= peek('logType',$(iter),'logList');
+  Let logAddlFields		= peek('logAddlFields',$(iter),'logList');
+  LET logType 			= if(logType='Performance','_performance',logType);
+  
+  LET logName 			= '$(carpeta)$(logService)\$(logArea)\*$(logType)';			// For Common Logging - TRACE folder + new logs
+
+  // Log-specific fields spelled out in the SUB defineFields
+  LET fields2Load 		= $(logAddlFields);
+  
+  // Session has different start and stop times available but which in certain scenarios are 0
+  LET start_time	= 'If(Left([Session Start],1)=1,Timestamp,[Session Start])';		// To avoid using "0" or dates from the year 1753 time
+  LET stop_time		= '$(start_time) + [Session Duration]';
+
+  for each textFile in FileList(logName & '*.' & extension)
+  
+    IF filetime( '$(textFile)' ) >= $(lastReloadCompare) then		// Only load the files updated since the last reload
+
+      //working:
+      CONCATENATE (working)
+      Load
+        Round(ConvertToLocalTime($(start_time)),1/1440) &'|' 
+            & Round(ConvertToLocalTime($(stop_time)),1/1440) 			AS _date_time_link,      
+        timestamp(ConvertToLocalTime(Round($(start_time),1/86400)))		AS LogEntryPeriodStart,
+        timestamp(ConvertToLocalTime(Round($(stop_time),1/86400))) 		AS LogTimeStamp,
+
+        $(fields2Load),   
+        Id as Id_temp		// Unique Identifier for Log entry to be used in the WHERE NOT EXISTS () clause to avoid loading duplicate log entries
+      
+      FROM '$(textFile)'
+      (txt, utf8, embedded labels, delimiter is '\t', msq)
+      WHERE isnum(Sequence#)
+      	AND not ActiveUserDirectory like 'internal';	// Only load entries where user directory <> Internal to exclude sa_repository and sa_scheduler (reloads)
+//      	AND not ProxySessionId = 0;		// Exclude Data Prep services session entries
+        
+      // If there is an error in the loading of the log, send a trace message about it
+      LET tempErrorDetails = ScriptErrorDetails;
+      IF tempErrorDetails > 0 THEN
+        trace ERROR: $(tempErrorDetails);
+        CALL monitor_app_reload_stats('WARN','$(textFile)', tempErrorDetails, 'Status Message')
+      END IF
+      
+      ENDIF
+  next textFile
+
+ENDSUB
+
+///$tab database_load
+SUB database_load
+
+  LIB CONNECT TO 'QLogs';
+
+  REM Load session data from view_session_engine;
+  CONCATENATE (working)
+  LOAD 
+	Round(ConvertToLocalTime(session_start),1/1440) &'|' 
+    	& Round(ConvertToLocalTime(session_start+session_duration),1/1440) 			AS _date_time_link,
+	Timestamp(ConvertToLocalTime(Round(session_start,1/86400)))  		AS LogEntryPeriodStart,	
+        // Since we are using Session Start for both "Start" and "End" (adding Duration), both should employ ConvertToLocalTime
+    Timestamp((Round(ConvertToLocalTime(session_start+session_duration),1/86400)))  	AS LogTimeStamp,  
+	id													AS Id_temp, 
+	lower(process_host)									AS Hostname, 
+	proxy_session_id&proxy_package_id					AS _proxySessionPackage,
+    IF(proxy_session_id=0,0,1)							AS [Session Count],
+    IF(proxy_session_id=0,null(),Num(session_duration))	AS _sessionDuration,
+    IF(proxy_session_id=0,Num(session_duration))		AS [Data Prep Load Duration],
+	Lower(process_host & active_user_directory * active_user_id & app_title)& floor(entry_timestamp) as sessionAppKey, 
+	If(len(proxy_session_id)>0,Num(selections),0)		AS [Session Selections], 
+	Round(cpu_spent_s*1000,0.01)						AS [Session CPU Spent (ms)], 
+	Ceil((bytes_received+bytes_sent)/1024)				AS [Session KBytes Sent+Received], 
+	app_id												AS ObjectId, 
+	app_title											AS [App Name], 
+    active_user_directory & chr(92) & active_user_id 	AS UserId,
+	active_user_directory								AS UserDirectory
+  	WHERE Not active_user_directory like 'internal';
+  SELECT 
+   "entry_timestamp", 
+	"process_host", 
+	"id", 
+	"proxy_session_id", 
+	"proxy_package_id", 
+	"selections", 
+	"session_duration", 
+	"cpu_spent_s", 
+	"bytes_received", 
+	"bytes_sent", 
+	"app_id", 
+	"app_title", 
+	"active_user_id", 
+	"active_user_directory", 
+	"session_start"   
+  FROM "public"."view_session_engine"
+  WHERE entry_timestamp >= '$(LastReloadTime)';
+
+  TRACE Finished loading data incrementally from database. Nice job!;    
+
+ENDSUB
+///$tab concat_tables
+SUB concat_tables (concatToTable, incrementalTable, concatField)
+
+  TRACE Concatenating tables...;
+
+  Let rows$(incrementalTable)Final = num(NoOfRows('$(incrementalTable)'),'#,##0');
+  trace $(rows$(incrementalTable)Final) incremental rows loaded;
+
+  IF NoOfRows('$(incrementalTable)')>0 then
+
+      CONCATENATE ($(concatToTable))
+      LOAD 
+          *, 
+          $(concatField)_temp as $(concatField)
+      RESIDENT $(incrementalTable)
+          WHERE NOT Exists ($(concatField),$(concatField)_temp)
+      ;
+    
+      drop field $(concatField)_temp from $(concatToTable);
+    
+  ELSE
+    	Trace No incremental rows for $(incrementalTable);  // Should only ever occur if all Qlik Services are stopped  
+        
+  ENDIF
+    
+  drop table $(incrementalTable);
+
+ENDSUB
+///$tab check_data_prep_services
+SUB check_data_prep_services
+
+// Align ObjectId for App sessions log entries in which Data Prep services was invoked ("Add Data", "Prepare Data")
+	appIdMap:
+	Mapping 
+    Load 
+    	DISTINCT sessionAppKey, 
+    	ObjectId 
+    Resident LogContent Where [Session Count]=1; // For non Data Prep SEssionApp entries
+    
+    LogContent2:
+ 	NoConcatenate 
+    Load *, 
+    	If([Session Count]=1,ObjectId,ApplyMap('appIdMap',sessionAppKey,'Sorry but I could not associate your app :(')) as ObjectId2 
+    Resident LogContent;
+    
+    Drop Table LogContent;
+	Drop Field ObjectId; 
+    Rename Field ObjectId2 to ObjectId;
+    Rename Table LogContent2 to LogContent;
+
+
+ENDSUB
+///$tab store_files
+SUB store_files (nombre, archivo)
+
+  TRACE Storing the QVD;
+
+  Store '$(nombre)' into [$(archivo).qvd];
+
+  LET tempErrorDetails = ScriptErrorDetails;
+  IF tempErrorDetails>0 THEN
+      SET storeBaseTableFail = 1;
+      CALL monitor_app_reload_stats('WARN','$(archivo)', tempErrorDetails, 'Status Message')
+      tempErrorDetails = ; // Reset This
+  ELSE
+      SET storeBaseTableFail = 0;
+  END IF
+
+  LET NoOfRowsLogContent = num(NoOfRows('$(nombre)'),'#,##0');
+  LET NoOfRowsIncremental = NoOfRowsLogContent - NoOfRowsLogContentBASE;
+  Let storeTime = now(1);
+  TRACE $(nombre) table stored at $(storeTime) with $(NoOfRowsLogContent) rows;
+
+  IF storeBaseTableFail = 0 then
+    Let LastSuccessfulReloadStartTime = ReloadStartTime;
+  ELSE
+    Let LastSuccessfulReloadStartTime = LastReloadTime;	// reset this to prior reload time
+  END IF
+  
+ENDSUB
+///$tab QRS
+SUB QRS
+	TRACE Fetching data from Qlik Sense Repository (QRS) database;
+    // If the connection fails (missing REST connector, can't connect to QRS) - the load script will fail :(
+    //	Also, if no data is returned from the QRS, the load script will terminate as well because there is something wrong to be investigated :(
+    LET NumRowsQRS = 0;
+    SET QRS_RowCounts = 'QRS Row Counts: ';
+    
+    For each endpoint in 'monitor_apps_REST_user','monitor_apps_REST_app','monitor_apps_REST_appobject'
+    	CALL $(endpoint)
+        DisConnect;
+		LET rose			= evaluate(NumRows_$(endpoint));
+        LET rose			= if(isnull(rose),0,rose);
+        LET NumRowsQRS		= $(NumRowsQRS) + $(rose);
+        LET QRS_RowCounts 	= '$(QRS_RowCounts) $(endpoint) = $(rose) lines,';
+    Next endpoint
+
+	If NumRowsQRS > 0 Then
+    	CALL monitor_app_reload_stats('INFO','Sessions Monitor', '$(QRS_RowCounts)','Status Message')
+        TRACE Reload Status: $(QRS_RowCounts);
+    ELSE	// No data fetched from QRS! This throws an error message, but will not fail the reload
+   		LET msg_qrs =  'There was a problem fetching data from QRS via the REST connector. We could connect, but failed to fetch data. $(QRS_RowCounts)';
+   		CALL monitor_app_reload_stats('ERROR','Sessions Monitor', msg_qrs,'Status Message')
+        // This msg_qrs message will be reported on the Log Details page
+    ENDIF
+
+ENDSUB
+///$tab user
+SUB monitor_apps_REST_user
+
+LIB CONNECT TO 'monitor_apps_REST_user_condensed';  
+
+User:
+  Load
+   userDirectory & '\' & userId AS UserId,
+   [name] AS [User Name],
+   userDirectory as [User Directory]
+  ;
+  SQL SELECT 
+      "userId",
+      "userDirectory",
+      "name"
+  FROM JSON (wrap on) "root"; 
+
+ENDSUB
+///$tab app
+SUB monitor_apps_REST_app
+  
+  LIB CONNECT TO 'monitor_apps_REST_app';
+  
+  RestConnectorMasterTable:
+  SQL SELECT 
+      "id" AS "id_u4",
+      "createdDate" AS "createdDate_u0",
+      "modifiedDate" AS "modifiedDate_u0",
+      "modifiedByUserName" AS "modifiedByUserName_u0",
+      "name" AS "name_u3",
+      "publishTime",
+      "published",
+      "description",
+      "fileSize",
+      "lastReloadTime",
+      "availabilityStatus",
+      "__KEY_root",
+      (SELECT 
+          "userId",
+          "userDirectory",
+          "__FK_owner"
+      FROM "owner" FK "__FK_owner"),
+      (SELECT 
+          "name" AS "name_u2",
+          "__FK_stream"
+      FROM "stream" FK "__FK_stream")
+  FROM JSON (wrap on) "root" PK "__KEY_root";
+  
+  LET NumRows_monitor_apps_REST_app = NoOfRows('RestConnectorMasterTable');
+  
+  map_stream:
+  Mapping LOAD	
+      [__FK_stream] AS [__KEY_root],
+      [name_u2] AS Stream	
+  RESIDENT RestConnectorMasterTable
+  WHERE NOT IsNull([__FK_stream]);
+  
+  App_Stream:
+  LOAD
+      [id_u4] AS ObjectId,
+      ApplyMap('map_stream',__KEY_root,'Unpublished') as [App Stream]
+  RESIDENT RestConnectorMasterTable
+  WHERE NOT IsNull([__KEY_root]);
+  
+  map_app_owner:
+  Mapping LOAD
+      [__FK_owner] AS [__KEY_root],
+      [userDirectory] & '\' & [userId] as AppOwner
+  RESIDENT RestConnectorMasterTable
+  WHERE NOT IsNull([__FK_owner]);
+  
+  App:
+  LOAD	
+      [id_u4] 					AS ObjectId,
+      [id_u4]					AS AppId,
+      date(alt(
+        date#(left(createdDate_u0,10),'YYYY-MM-DD'),
+        date#(left(createdDate_u0,10),'YYYY/MM/DD'),
+        date#(left(createdDate_u0,10),'MM-DD-YYYY'),
+        date#(left(createdDate_u0,10),'MM/DD/YYYY'),
+        date#(left(createdDate_u0,10),'YYYY.MM.DD'),
+        'No valid date')
+      	) as [App Created Date],
+      date(alt(
+        date#(left(modifiedDate_u0,10),'YYYY-MM-DD'),
+        date#(left(modifiedDate_u0,10),'YYYY/MM/DD'),
+        date#(left(modifiedDate_u0,10),'MM-DD-YYYY'),
+        date#(left(modifiedDate_u0,10),'MM/DD/YYYY'),
+        date#(left(modifiedDate_u0,10),'YYYY.MM.DD'),
+        'No valid date')
+      	) as [App Modified Date],
+      [modifiedByUserName_u0] 	AS [App Modified By],
+      [name_u3] 				AS [App Name QRS],
+      if(left(publishTime,4)='1753','Never',timestamp(publishTime)) AS [App Publish Time],
+      [published] 				AS [App Published],
+      [description] 			AS [App Description],
+      floor([fileSize]/1024)	AS [App File Size],		// In Kb
+      timestamp([lastReloadTime]) AS [App Last Reload Time],
+      [availabilityStatus] 		AS [App Availability Status],
+      ApplyMap('map_app_owner',__KEY_root,'Unknown Owner') AS [App Owner]
+  RESIDENT RestConnectorMasterTable
+  WHERE NOT IsNull([__KEY_root]);
+  
+  DROP TABLE RestConnectorMasterTable;
+  
+  // Unify the App Name from the Logs and from QRS (To present the most up-to-date App Name while preserving App Name history)
+  tempAppName:
+  NoConcatenate 
+  Load
+  	Distinct ObjectId,
+    ObjectId as AppIdQRS,
+    [App Name QRS]
+  Resident App;
+  
+  Outer Join (tempAppName)
+  Load
+  	Distinct ObjectId,
+    ObjectId as AppIdHistorical,
+    [App Name] as [App Name Historical]
+  Resident LogContent
+  Where len([App Name])>0;
+  
+  AppName:
+  NoConcatenate
+  Load
+  	ObjectId,
+    if(isnull([App Name QRS]),[App Name Historical],[App Name QRS]) as [App Name],
+    if(isnull(AppIdQRS) and index(ObjectId,'|')=0,AppIdHistorical,AppIdQRS) as AppId,
+    if(index(ObjectId,'|')>0,null(),isnull([App Name QRS])*-1) as [AppId Removed from QRS],
+    [App Name Historical]
+  Resident tempAppName;
+  
+  Drop Table tempAppName;
+  Drop Field [App Name] from LogContent;
+  Drop Field [App Name QRS] from App;
+  Drop Field AppId from App;
+  // End unify App Name
+
+ENDSUB
+///$tab appobject
+SUB monitor_apps_REST_appobject
+
+  LIB CONNECT TO 'monitor_apps_REST_appobject';
+  
+  RestConnectorMasterTable:
+  SQL SELECT 
+      "id" AS "id_u2",
+      "createdDate",
+      "modifiedDate",
+      "modifiedByUserName",
+      "description",
+      "objectType",
+      "publishTime" AS "publishTime_u0",
+      "published" AS "published_u0",
+      "approved",
+      "name" AS "name_u2",
+      "__KEY_root",
+      (SELECT 
+          "userId",
+          "userDirectory",
+          "__FK_owner"
+      FROM "owner" FK "__FK_owner"),
+  // 	(SELECT 
+  // 		"@Value",
+  // 		"__FK_tags"
+  // 	FROM "tags" FK "__FK_tags" ArrayValueAlias "@Value"),
+      (SELECT 
+          "id" AS "id_u1",
+          "__KEY_app",
+          "__FK_app"
+      FROM "app" PK "__KEY_app" FK "__FK_app")
+  FROM JSON (wrap on) "root" PK "__KEY_root";
+  
+  LET NumRows_monitor_apps_REST_appobject = NoOfRows('RestConnectorMasterTable');
+  
+  owner_map:
+  Mapping LOAD
+  	[__FK_owner] AS [__KEY_root],
+    [userDirectory] & '\' & userId AS uid  
+  RESIDENT RestConnectorMasterTable
+  WHERE NOT IsNull([__FK_owner]);
+  
+  // [tags]:
+  // LOAD	[@Value] AS [@Value],
+  // 	[__FK_tags] AS [__KEY_root]
+  // RESIDENT RestConnectorMasterTable
+  // WHERE NOT IsNull([__FK_tags]);
+  
+  app_map:
+  mapping LOAD 
+  	[__FK_app],
+  	[id_u1] AS OjbectId
+//       [__KEY_app] AS [__KEY_app],
+//       [__FK_app] AS [__KEY_root]
+  RESIDENT RestConnectorMasterTable
+  WHERE NOT IsNull([__FK_app]);
+  
+  AppObject:
+  LOAD	
+    [id_u2] 		AS AppObjectId,
+    date(alt(
+        date#(left(createdDate,10),'YYYY-MM-DD'),
+        date#(left(createdDate,10),'YYYY/MM/DD'),
+        date#(left(createdDate,10),'MM-DD-YYYY'),
+        date#(left(createdDate,10),'MM/DD/YYYY'),
+        date#(left(createdDate,10),'YYYY.MM.DD'),
+        'No valid date')
+      	) as [App Object Created Date],  
+  	date(alt(
+      date#(left(modifiedDate,10),'YYYY-MM-DD'),
+      date#(left(modifiedDate,10),'YYYY/MM/DD'),
+      date#(left(modifiedDate,10),'MM-DD-YYYY'),
+      date#(left(modifiedDate,10),'MM/DD/YYYY'),
+      date#(left(modifiedDate,10),'YYYY.MM.DD'),
+      'No valid date')
+      ) as [App Object Modified Date],
+  [modifiedByUserName] AS [App Object Modified By],
+  [description] 	AS [App Object Description],
+  [objectType] 		AS [App Object Type],
+  if(left(publishTime_u0,4)='1753','Never',timestamp([publishTime_u0])) 	AS [App Object Publish Time],
+  If(lower([published_u0])='true',dual('Published',1),dual('Unpublished',0)) 	AS [App Object Published],
+  If(lower([approved])='true',dual('Approved',1),dual('Not Approved',0)) 		AS [App Object Approved],
+  [name_u2] 		AS [App Object Name],
+//  [__KEY_root] 		AS [__KEY_root],		// Will only need __KEY_root with tags or custom properties
+  ApplyMap('owner_map',__KEY_root,'Missing App Object Owner') 	AS [App Object Owner],
+  ApplyMap('app_map',__KEY_root,'Missing App') 					AS ObjectId	// This is AppId to link to the App
+  RESIDENT RestConnectorMasterTable
+  WHERE NOT IsNull([__KEY_root]);
+  
+  
+  DROP TABLE RestConnectorMasterTable;
+
+ENDSUB
+///$tab monitor_app_reload_stats
+SUB monitor_app_stats_incremental	// Use this to append new 'status' entry to table  
+    Concatenate (monitor_app_reload_stats)
+    Load
+      RowNo() as [Log Entry],
+      timestamp(now(1)) as [Log Timestamp],
+      '$(sev)' as [Log Severity],
+      '$(comp)' as Host,
+      '$(description)' as Description,
+      '$(message)' as [Log Message],
+      '$(obj)' as Object
+    AutoGenerate (1);
+    
+ENDSUB
+   
+SUB monitor_app_reload_stats (sev, obj, message, description)
+
+  TRACE Working on Monitor App Reload Stats;
+
+  IF description = 'Reload Start' THEN
+  	// Check for existing base status file
+	IF FileSize('$(monitorAppStatsFile)') > 0 THEN
+      monitor_app_reload_stats:
+      Load * From '$(monitorAppStatsFile)' (txt, utf8, embedded labels, delimiter is '\t', msq);
+    ELSE
+      Trace Did not find $(monitorAppStatsFile) - will create a new file.;
+      monitor_app_reload_stats:
+      Load * Inline [Log Entry, Log Timestamp, Log Severity,Host,Description,Log Message,Object];
+    ENDIF
+
+    Let appMonitorStatsRowsInit = NoOfRows('monitor_app_reload_stats');
+    CALL monitor_app_stats_incremental		// Add start message
+  
+  ELSEIF description = 'Status Message' THEN    
+    CALL monitor_app_stats_incremental		// Add status message
+    
+  ELSEIF description = 'Reload Finish' THEN
+  	CALL monitor_app_stats_incremental		// Add Finish message
+    STORE monitor_app_reload_stats into '$(monitorAppStatsFile)' (txt, delimiter is '\t');
+    DROP TABLE monitor_app_reload_stats; 
+    TRACE $(message);
+  
+  ELSE
+  	trace Something went wrong with the monitor app reload status messaging.;
+  
+  ENDIF
+
+ENDSUB
+///$tab calendarization
+SUB calendarization
+
+  TRACE Working on master Calendar;
+
+// Work out the first and last date from my data
+  Range:
+  LOAD 
+    DayStart(min) as startdate,
+    DayStart(max) as enddate,
+    timestamp(max) as maxLogTimeStamp;
+  LOAD    
+     min(LogEntryPeriodStart) as min,
+     max(LogTimeStamp) as max
+  resident LogContent;
+
+  let startdate				= floor(peek('startdate',-1,'Range'));
+  let enddate				= ceil(peek('enddate',-1,'Range')) +1;
+  let maxLogTimeStamp 		= peek('maxLogTimeStamp',-1,'Range');
+  Let maxLogTimeStamp_Hour 	= hour(maxLogTimeStamp);
+  Let hour_now 				= maxLogTimeStamp_Hour;
+  drop table Range;
+  
+// SORT ORDERING of Time fields
+// To sort backward from now(reload) -- for 24-Hour summary charts
+  hour_temp:
+  mapping Load 
+     recno()-1 & ':00' as Hour,
+     if($(hour_now)-(recno()-1)>=0, $(hour_now)-(recno()-1),23+($(hour_now)-(recno()-1))+1) as hour_sort
+  autogenerate (24);
+  
+// Establish order of weekdays
+  Weekdays:
+  Load 
+  	weekday(weekstart(today())+recno()-1) as Weekday,
+    recno() as weekday_sort
+  autogenerate 7;
+
+// For all non-24-hour Summary charts, we want "normal" numeric sorting of Hour from 0 to 23 hours
+  Hour_Table:
+  NoConcatenate
+  Load
+      rowno()-1 & ':00' as Hour,
+      rowno()-1 & ':00' as [Hour of Day]
+  AutoGenerate (24);
+  
+// Build a table of every minute between my start and end date
+  Do While startdate < enddate
+    time_range_working:
+    load
+      //timestamp($(startdate) + (1/1440)*(recno()-1),'YYYY-MM-DD h:mm') as DateTime
+      Round($(startdate) + (1/1440)*(recno()-1),1/1440) as DateTime
+    autogenerate (1440);
+
+    //let startdate = num($(startdate) + 1,'###0.#####','.') ;
+    let startdate = $(startdate) + 1;
+  Loop 
+  
+//Interval Match dates
+  Inner Join (time_range_working)
+  Intervalmatch (DateTime) 
+  Load 
+    LogEntryPeriodStart-(1/1440) as start_minus_one, 
+    LogTimeStamp 
+  Resident LogContent;
+
+  date_time_working:
+  Load
+   *,
+    (Round(Num(start_minus_one+1/(1440)),1/1440)&'|'
+      &Round(Num(LogTimeStamp),1/1440)) as _date_time_link_incr	// LINK w/ LogContent
+  RESIDENT time_range_working;
+  Drop Table time_range_working;
+  
+  Let NoOfRows_date_time_working = NoOfRows('date_time_working');  
+  Drop field start_minus_one;
+
+  TRACE Looking for additional date time links to include in DateTime;
+  //Concatenate date_time_link fields that do not already exist in date_time. This can happen due to rounding of Timestamps
+  // Note that the added _date_time_link entries will not include the interval in the calendar as do the first-pass entries.
+  // The totals will still be accurate, but when viewed by minute or hour, a small percentage of sessions will only appear when the session
+  //    started, whereas the  majority will show how the session spanned multiple minutes or hours.
+  Concatenate (date_time_working)
+  Load
+  	_date_time_link as _date_time_link_incr,
+    LogEntryPeriodStart as DateTime
+  Resident LogContent
+  Where Not Exists([_date_time_link_incr],[_date_time_link]);
+  
+   Let NoOfRows_date_time_additional = NoOfRows('date_time_working')-$(NoOfRows_date_time_working);
+  TRACE $(NoOfRows_date_time_additional) new _date_time_links added.;
+
+  //Build time table
+  date_time:
+  LOAD
+    Distinct _date_time_link_incr 								AS _date_time_link,
+    DateTime,
+    MonthName(DateTime) 								as Month,	
+    WeekStart(DateTime) 								as [Week Beginning],
+    WeekDay(DateTime) 									as Weekday,
+    makedate(year(DateTime),month(DateTime),day(DateTime)) as Date,  
+    Hour(DateTime)&':00' 								as Hour,
+    Time(DateTime) 										as Time,
+    ApplyMap('hour_temp',Hour(DateTime)&':00' ) 		as hour_sort,
+    Minute(DateTime) 									as [Minute of Hour],
+    timestamp(floor(DateTime,1/(24)),'MMM-DD hh:00') 	as [Hour Timeline],
+    timestamp(floor(DateTime,10/(1440)),'MMM-DD hh:mm') as [Ten-Minute Timeline],
+    timestamp(floor(DateTime,1/(1440)),'MMM-DD hh:mm')	as [One-Minute Timeline],
+    If(DateTime>=$(vLast4Hours),1) 						AS last4hours,
+    If(DateTime>=$(vLast24Hours),1) 					AS last24hours,
+    If(DateTime>=$(vLast72Hours),1) 					AS last72hours,
+    If(DateTime>=$(vLast7Days),1) 						AS last7days
+  resident date_time_working
+  ORDER By DateTime DESC;
+
+  Drop table date_time_working;  
+  
+  Last:
+  Load Distinct [Hour Timeline], 'Last 4 Hours' as [Timeframe] Resident date_time Where last4hours=1;
+  Concatenate Load Distinct [Hour Timeline], 'Last 24 Hours' as [Timeframe] Resident date_time Where last24hours=1;
+  Concatenate Load Distinct [Hour Timeline], 'Last 72 Hours' as [Timeframe] Resident date_time Where last72hours=1;
+  Concatenate Load Distinct [Hour Timeline], 'Last 7 Days' as [Timeframe] Resident date_time Where last7days=1;
+
+  Drop Fields last4hours,last72hours,last7days;
+
+ENDSUB
+///$tab supporting_logic
+SUB supporting_logic
+ 
+  TRACE Working on supporting logic;
+
+  ////// Colors
+  set c_red					= 'RGB(204,102,119)';
+  set c_yellow				= 'RGB(221,204,119)';
+  set c_blue				= 'RGB(68,119,170)';
+  set c_green				= 'RGB(17,119,51)';
+  set c_gray 				= 'RGB(150,150,150)';
+  set c_lightred 			= 'RGB(240,209,214)';
+  set c_lightblue 			= 'RGB(188,181,201)'; 
+
+	set errormode = 0;	// In case there are no sessions or reload tasks
+    
+    Session_Duration_Bucket:
+    // Session Duration is given in fraction of day; DurationInMinutes is given in Minutes!
+    Load 
+      Distinct _sessionDuration,
+      Time(Floor(_sessionDuration*86400)/86400) as [Session Duration],		// Round to the second so you don't see multiple listings 
+      																			// of the same second (which has a subsecond difference
+      IF(DurationInMinutes<11,dual('< 10',10),
+        IF(DurationInMinutes<31,dual('11 - 30',30),
+         IF(DurationInMinutes<61,dual('31 - 60',60),
+           IF(DurationInMinutes<121,dual('61 - 120',120), dual('> 120',121)
+            )))) as [Session Duration Bucket]
+      ;
+    Load
+    	DISTINCT _sessionDuration,
+        _sessionDuration*1440 as DurationInMinutes		//  temporary field, will not carry through
+    RESIDENT LogContent		// Change from SessionSummary to LogContent
+    WHERE _sessionDuration > 0;
+
+
+ENDSUB
+///$tab run_logic
+//// Reload Logic
+
+CALL monitor_app_reload_stats('INFO','Sessions Monitor', startMsg,'Reload Start')
+
+LET baseTableName = '$(baseTableName)_file';		// Store log history QVD with suffix _file so it only gets used with file logging
+TRACE Last Reload Compare time = $(lastReloadCompare). CutoffDate = $(cutoffDate).;
+
+REM Load the historical (incremental) QVD if it exists;
+CALL load_base_table ('LogContent', '$(baseTableName)')
+
+REM initialize working tables;
+working:
+NOCONCATENATE Load * Inline [LogTimeStamp];
+
+SET logSource = 'Log Files';
+CALL log_list
+CALL define_fields
+CALL multi_node_config
+CALL log_folder_list
+
+// This loops through the Sense\Log folder on the central node + each [hostname] folder in the Sense\Repository\Archived Logs folder
+TRACE Starting to load the logs files!;
+for i = 0 to noofrows('logFolderList')-1
+  // Loop through each logfile enumerated in the logList SUB
+  FOR j = 0 to noofrows('logList')-1  
+    CALL file_load (i,j)
+  next j
+next i
+SET LastReloadSource = 1;
+
+CALL concat_tables ('LogContent', 'working','Id')
+LET countOfSessions = NoOfRows('LogContent');
+If countOfSessions >= 1 Then
+// Only run this if we have data loaded!
+  CALL check_data_prep_services
+Endif
+CALL store_files ('LogContent', '$(baseTableName)')
+
+
+CALL QRS		// Call QRS data AFTER LogContent table is stored
+
+drop tables logList, logFolderList;
+
+If countOfSessions >= 1 Then
+// Only run this if we have data loaded!
+  CALL calendarization
+  CALL supporting_logic
+EndIf
+// FINALIZE: Write final reload message and store App Reload Stats
+//// Set Reload Stats Variables	//// 
+Let ReloadDuration = interval(now(1)-ReloadStartTime,'hh:mm:ss');
+  
+LET ttlRows 	= num(NoOfRows('LogContent'),'#,##0');
+LET ahora		= now(1);
+
+// Check to see if there were any reload errors associated with this app; report them on the Log Details page
+LET reloadWarn	= NoOfRows('monitor_app_reload_stats')-$(appMonitorStatsRowsInit)-1;	// There will already be an 'reload start' entry in this table
+LET reloadWarnMsg	= if(reloadWarn>1,' Reloaded with ' & reloadWarn & ' warning(s). Consult the Sessions_Monitor_Reload_Stats.txt log for details.','');
+LET reloadWarnMsg	= reloadWarnMsg & if(NumRowsQRS>0,'',msg_qrs);	// Add error message if failure to fetch data from qrs
+LET msg			= 'Reloaded at $(ahora) on $(comp) for $(ReloadDuration) with $(ttlRows) log entries from $(logSource).$(reloadWarnMsg)';
+
+CALL monitor_app_reload_stats ('INFO','Sessions Monitor',msg,'Reload Finish')
