@@ -1,0 +1,29 @@
+
+SHEETS
+{"qInfo":{"qId":"d5d13bef-6d54-46c7-937f-fe4da9d0b073","qType":"sheet"},"qMeta":{"title":"My new sheet","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"d5d13bef-6d54-46c7-937f-fe4da9d0b073","approved":false,"published":false,"owner":"auth0|a08D000001JIxZxIAL","ownerId":"64f9f217c7fe5898899b848e","createdDate":"2023-10-17T18:45:41.559Z","modifiedDate":"2023-10-18T13:59:21.119Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+
+OBJECTS ON SHEETS
+{"name":"BvaTRaN","type":"table","col":11,"row":3,"colspan":25,"rowspan":15,"bounds":{"y":16.666666666666664,"x":29.166666666666668,"width":70.83333333333334,"height":83.33333333333334}}
+{"name":"SFZqXtA","type":"barchart","col":0,"row":3,"colspan":10,"rowspan":15,"bounds":{"y":16.666666666666664,"x":0,"width":29.166666666666668,"height":83.33333333333334}}
+{"name":"WKLQfsm","type":"filterpane","col":0,"row":0,"colspan":36,"rowspan":3,"bounds":{"y":0,"x":0,"width":100,"height":16.666666666666664}}
+
+DIMENSIONS
+
+MEASURES
+
+VARIABLES
+
+FIELDS
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Field","qCardinal":7,"qTags":["$key","$hidden","$system","$ascii","$text"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Table","qCardinal":1,"qTags":["$key","$hidden","$system","$ascii","$text"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Rows","qCardinal":1,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Fields","qCardinal":1,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$FieldNo","qCardinal":7,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Info","qCardinal":1,"qTags":["$hidden","$system","$ascii","$text"],"qSrcTables":[]}
+{"qName":"appName","qCardinal":17,"qTags":["$ascii","$text"],"qSrcTables":["AppObjects"]}
+{"qName":"objectType","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["AppObjects"]}
+{"qName":"objectid","qCardinal":293,"qTags":["$ascii","$text"],"qSrcTables":["AppObjects"]}
+{"qName":"sheeturl","qCardinal":378,"qTags":["$ascii","$text"],"qSrcTables":["AppObjects"]}
+{"qName":"description","qCardinal":12,"qTags":["$ascii","$text"],"qSrcTables":["AppObjects"]}
+{"qName":"appid","qCardinal":17,"qTags":["$ascii","$text"],"qSrcTables":["AppObjects"]}
+{"qName":"objectName","qCardinal":290,"qTags":["$ascii","$text"],"qSrcTables":["AppObjects"]}
